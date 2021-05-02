@@ -1,5 +1,5 @@
 #include "symbolic_image.hpp"
-
+#include <iostream>
 #include <boost/graph/strong_components.hpp>
 #include <map>
 
@@ -25,7 +25,16 @@ int SymbolicImage::return_cell(double x, double y)
 	return (int)abs((yn - y_max) / delta) * cols + (int)abs((xn - x_min) / delta);
 }
 
-Graph SymbolicImage::localize_chain_set(int n)
+void SymbolicImage::return_interval(int cell, double& x, double& y)
+{
+	int row = return_row(cell);
+	int col = return_col(cell);
+
+	x = x_min + (double)col * delta;
+	y = y_max - (double)row * delta;
+}
+
+vector<vector<int>> SymbolicImage::localize_chain_set()
 {
 	vector<bool> writes(number_of_cells);
 	writes.assign(number_of_cells, false);
@@ -34,8 +43,8 @@ Graph SymbolicImage::localize_chain_set(int n)
 		
 		int row = (int)i / cols;
 		int col = (int)i % cols;
-		double x = x_min + col * delta;
-		double y = y_max - row * delta;
+		double x, y;
+		return_interval(i, x, y);
 
 
 		for (int l = 0; l < dots_square - 1; l++)
@@ -54,35 +63,34 @@ Graph SymbolicImage::localize_chain_set(int n)
 
 				if (!writes[i])
 				{
-					vertex_t v = add_vertex(i, g);
-					g[i].index = i;
+					vertex_t v = add_vertex(i, *g);
+					(*g)[i].index = i;
 					writes[i] = true;
 				}
 				if (!writes[cell])
 				{
-					add_vertex(cell, g);
-					g[cell].index = cell;
+					add_vertex(cell, *g);
+					(*g)[cell].index = cell;
 					writes[cell] = true;
 				}
-				add_edge_by_label(i, cell, g);
+				add_edge_by_label(i, cell, *g);
 			}
 		}
 	}
-	vector<vector<vertex_t>>& components = find_strong_components();
+	vector<vector<int>>components =  find_strong_components();
 
-
-	if (n > 0)
-	{
-		for (int i = 0; i < n; i++)
+		for (int i = 0; i < iterations_for_localization; i++)
 		{
 			int old_cols = cols;
-			Graph new_g();
-
+			Graph* new_g = new Graph();
 			cols *= 2;
 			rows *= 2;
 			delta *= 0.5;
 
 			number_of_cells = cols * rows;
+
+			writes.resize(number_of_cells);
+			writes.assign(number_of_cells, false);
 
 			for (auto c : components)
 			{
@@ -102,18 +110,34 @@ Graph SymbolicImage::localize_chain_set(int n)
 							for (int l = 0; l < dots_square - 1; l++)
 							{
 
-								double xn = x + (double)l * delta / dots_square;
+								double xn = x + (double)l * delta / (double) dots_square;
 								for (int d = 0; d < dots_square - 1; d++)
 								{
 
-									double yn = y - (double)d * delta / dots_square;
+									double yn = y - (double)d * delta / (double) dots_square;
 
 									int cell = return_cell(xn, yn);
 
 									if (cell == -1) continue;
 									if (cell >= number_of_cells) continue;
 
+									if (!writes[cells[m]])
+									{
+										add_vertex(cells[m], *new_g);
+										(*new_g)[cells[m]].index = cells[m];
+										writes[cells[m]] = true;
+									}
+
+									if (!writes[cell])
+									{
+										cout << cell << endl;
+										add_vertex(cell, *new_g);
+										(*new_g)[cell].index = cell;
+										writes[cell] = true;
+									}
+
 									
+									add_edge_by_label(cells[m], cell, *new_g);
 
 								}
 							}
@@ -121,39 +145,52 @@ Graph SymbolicImage::localize_chain_set(int n)
 					}
 				}
 			}
+			std::cout << "I'M HERE!!! " << i << endl;
+			delete g;
+			g = new_g;		
+			components = find_strong_components();
+
+			std::cout << "I'M HERE!!! " << i << endl;
 
 		}
-
-	}
-
-}
-
-vector<vector<vertex_t>>& SymbolicImage::find_strong_components()
-{
-
-
-	map <vertex_t, int> component;
-
-	int num = strong_components(g, make_assoc_property_map(component));
-
-	vector<vector<vertex_t>> components(num);
-
-	graph_traits <Graph>::vertex_iterator vi, vi_end;
-
-	for (tie(vi, vi_end) = vertices(g); vi != vi_end; ++vi)
-	{
-		components[component[*vi]].push_back(*vi);
-
-	}
 
 	return components;
 }
 
-
-vector<int>& SymbolicImage::new_coordinates(vertex_t cell, int old_cols)
+vector<vector<int>> SymbolicImage::find_strong_components()
 {
-	int row = g.graph()[cell].index / old_cols;
-	int col = g.graph()[cell].index % old_cols;
+
+	map <vertex_t, int> comp;
+
+	cout << "Calculating strong components..." << endl;
+	int num = strong_components(g->graph(), boost::get(&Node::component, g->graph()), 
+		vertex_index_map(boost::get(&Node::index, g->graph())));
+
+	vector<vector<int>> components(num);
+	cout << "Calculated" << endl;
+
+	graph_traits <Graph>::vertex_iterator vi, vi_end;
+
+	for (tie(vi, vi_end) = vertices(*g); vi != vi_end; ++vi)
+	{
+		components[g->graph()[*vi].component].push_back(g->graph()[*vi].index);
+
+	}
+
+	return components;
+
+	/*vector<vector<vertex_t>> components;
+
+	return components;*/
+
+
+}
+
+
+vector<int> SymbolicImage::new_coordinates(int cell, int old_cols)
+{
+	int row = cell / old_cols;
+	int col = cell % old_cols;
 
 	vector<int> cells(4);
 
@@ -163,4 +200,129 @@ vector<int>& SymbolicImage::new_coordinates(vertex_t cell, int old_cols)
 	cells[3] = (2 * row + 1)* cols + 2 * col + 1;
 
 	return cells;
+}
+
+
+vector<double> SymbolicImage::find_invariant_measures()
+{
+
+	vector<vector<int>> components = localize_chain_set();
+	vector<double> p(number_of_cells), p1(number_of_cells);
+
+
+	p.assign(number_of_cells, 0.0);
+	p1.assign(number_of_cells, 0.0);
+
+	for (vector<int> c : components)
+	{	
+		if (c.size() > 1)
+		{
+			for (int v : c)
+			{
+				p[v] = 1.0;
+			}
+		}
+	}
+
+
+	
+	for (int n = 0; n < iterations_for_balance; n++)
+	{
+
+
+		for (int i = 0; i < rows; i++)
+		{
+			double sum_l = 0;
+			double sum_h = 0;
+
+			for (int m = 0; m < rows; m++)
+			{
+				if (m != i)
+					sum_h += p[m * cols + i];
+			}
+
+			for (int l = 0; l < cols; l++)
+			{
+				if (l != i)
+					sum_l += p[i * cols + l];
+			}
+
+			for (int k = 0; k < cols; k++)
+			{
+
+				if (k != i && sum_l > 0 && sum_h >= 0)
+				{
+
+					if (sum_h > sum_l)
+						p1[i * cols + k] = p[i * cols + k] * (sqrt(sum_h / sum_l));
+					else
+						p1[i * cols + k] = p[i * cols + k];
+				}
+				else
+					p1[i * cols + k] = p[i * cols + k];
+	
+
+			}
+
+
+
+		}
+		p.assign(p1.begin(), p1.end());
+
+		for (int i = 0; i < rows; i++)
+		{
+			double sum_l = 0;
+			double sum_h = 0;
+
+			for (int m = 0; m < rows; m++)
+			{
+				if (m != i)
+					sum_l += p[m * cols + i];
+			}
+
+			for (int l = 0; l < cols; l++)
+			{
+				if (l != i)
+					sum_h += p[i * cols + l];
+			}
+
+			for (int k = 0; k < cols; k++)
+			{
+
+				if (k != i && sum_l > 0 && sum_h >= 0)
+				{
+
+					if (sum_h > sum_l)
+						p1[k * cols + i] = p[k * cols + i] * (sqrt(sum_h / sum_l));
+					else
+						p1[k * cols + i] = p[k * cols + i];
+				}
+				else
+					p1[k * cols + i] = p[k * cols + i];
+
+
+			}
+
+		}
+		p.assign(p1.begin(), p1.end());
+
+		double sum = 0.0;
+
+		for (int i = 0; i < number_of_cells; i++)
+		{
+			sum += p[i];
+		}
+
+		for (int i = 0; i < number_of_cells; i++)
+		{
+			p[i] /= sum;
+		}
+	}
+
+	//for (int i = 0; i < number_of_cells; i++)
+	//{
+	//	p[i] /= delta * delta;
+	//}
+
+	return p;
 }

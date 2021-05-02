@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Symbol_2", "Symbol_2\Symbol_2.pyproj", "{9D628826-497E-4387-BFBC-C9BFB26850ED}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calculations", "Calculations\Calculations.vcxproj", "{DD3D93D1-1C63-4F59-A98D-F0389CCF3BD0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calculations", "Calculations\Calculations.vcxproj", "{DD3D93D1-1C63-4F59-A98D-F0389CCF3BD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +29,7 @@ Global
 		{DD3D93D1-1C63-4F59-A98D-F0389CCF3BD0}.Debug|x86.ActiveCfg = Debug|Win32
 		{DD3D93D1-1C63-4F59-A98D-F0389CCF3BD0}.Debug|x86.Build.0 = Debug|Win32
 		{DD3D93D1-1C63-4F59-A98D-F0389CCF3BD0}.Release|Any CPU.ActiveCfg = Release|Win32
+		{DD3D93D1-1C63-4F59-A98D-F0389CCF3BD0}.Release|Any CPU.Build.0 = Release|Win32
 		{DD3D93D1-1C63-4F59-A98D-F0389CCF3BD0}.Release|x64.ActiveCfg = Release|x64
 		{DD3D93D1-1C63-4F59-A98D-F0389CCF3BD0}.Release|x64.Build.0 = Release|x64
 		{DD3D93D1-1C63-4F59-A98D-F0389CCF3BD0}.Release|x86.ActiveCfg = Release|Win32

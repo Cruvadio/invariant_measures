@@ -1,0 +1,2214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\array.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\buckets.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\cutheap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\dqueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\estack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\fixed_vectorlist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\grid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\hashtable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\heap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\indheap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\interruption.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\marked_queue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\matrix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\printing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\progress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\psumtree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\set.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\sparsemat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\spmatrix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\stack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\statusbar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\strvector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\trie.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\vector_ptr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\core\vector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\math\bfgs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\math\complex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\math\utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\linalg\arpack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\linalg\blas.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\linalg\eigen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\linalg\lapack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\random\random.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\graph\adjlist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\graph\attributes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\graph\basic_query.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\graph\cattributes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\graph\iterators.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\graph\type_indexededgelist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\graph\visitors.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\constructors\adjacency.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\constructors\atlas.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\constructors\basic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\constructors\de_bruijn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\constructors\famous.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\constructors\full.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\constructors\kautz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\constructors\lcf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\constructors\linegraph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\constructors\prufer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\constructors\regular.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\barabasi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\callaway_traits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\citations.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\correlated.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\degree_sequence_vl\gengraph_box_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\degree_sequence_vl\gengraph_degree_sequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\degree_sequence_vl\gengraph_graph_molloy_hash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\degree_sequence_vl\gengraph_graph_molloy_optimized.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\degree_sequence_vl\gengraph_mr-connected.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\degree_sequence_vl\gengraph_powerlaw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\degree_sequence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\dotproduct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\erdos_renyi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\establishment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\forestfire.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\grg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\growing_random.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\islands.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\k_regular.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\preference.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\recent_degree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\sbm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\static_fitness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\games\watts_strogatz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\centrality\betweenness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\centrality\centrality_other.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\centrality\centralization.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\centrality\closeness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\centrality\coreness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\centrality\prpack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\cliques\cliquer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\cliques\cliques.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\cliques\maximal_cliques.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\cliques\glet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\edge_betweenness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\fast_modularity.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\fluid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\infomap\infomap_FlowGraph.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\infomap\infomap_Greedy.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\infomap\infomap_Node.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\infomap\infomap.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\label_propagation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\leading_eigenvector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\leiden.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\louvain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\misc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\modularity.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\optimal_modularity.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\spinglass\clustertool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\spinglass\NetDataTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\spinglass\NetRoutines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\spinglass\pottsmodel_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\walktrap\walktrap_communities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\walktrap\walktrap_graph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\walktrap\walktrap_heap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\community\walktrap\walktrap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\connectivity\cohesive_blocks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\connectivity\components.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\connectivity\separators.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\flow\flow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\flow\st-cuts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\hrg\hrg_types.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\hrg\hrg.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\dimacs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\dl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\dot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\edgelist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\graphml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\gml-tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\gml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\graphdb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\leda.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\lgl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\ncol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\pajek.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\parsers\dl-lexer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\parsers\dl-parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\parsers\gml-lexer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\parsers\gml-parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\parsers\lgl-lexer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\parsers\lgl-parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\parsers\ncol-lexer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\parsers\ncol-parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\parsers\pajek-lexer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\io\parsers\pajek-parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\bipartite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\circular.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\davidson_harel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\drl\DensityGrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\drl\DensityGrid_3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\drl\drl_graph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\drl\drl_graph_3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\drl\drl_layout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\drl\drl_layout_3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\fruchterman_reingold.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\gem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\graphopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\grid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\kamada_kawai.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\lgl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\mds.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\merge_dla.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\merge_grid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\random.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\reingold_tilford.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\layout\sugiyama.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\operators\add_edge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\operators\complementer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\operators\compose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\operators\connect_neighborhood.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\operators\contract.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\operators\difference.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\operators\disjoint_union.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\operators\intersection.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\operators\misc_internal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\operators\permute.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\operators\rewire.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\operators\rewire_edges.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\operators\simplify.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\operators\subgraph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\operators\union.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\paths\all_shortest_paths.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\paths\bellman_ford.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\paths\dijkstra.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\paths\distances.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\paths\eulerian.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\paths\histogram.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\paths\johnson.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\paths\random_walk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\paths\shortest_paths.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\paths\simple_paths.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\paths\unweighted.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\properties\basic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\properties\constraint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\properties\convergence_degree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\properties\dag.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\properties\degrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\properties\girth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\properties\loops.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\properties\multiplicity.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\properties\neighborhood.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\properties\spectral.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\properties\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\properties\triangles.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\scg\scg_approximate_methods.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\scg\scg_exact_scg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\scg\scg_kmeans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\scg\scg_optimal_method.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\scg\scg_utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\scg\scg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\isomorphism\bliss.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\isomorphism\isoclasses.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\isomorphism\lad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\isomorphism\misc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\isomorphism\queries.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\isomorphism\vf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\misc\bipartite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\misc\chordality.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\misc\cocitation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\misc\coloring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\misc\conversion.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\misc\degree_sequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\misc\embedding.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\misc\feedback_arc_set.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\misc\graphicality.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\misc\matching.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\misc\microscopic_update.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\misc\mixing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\misc\motifs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\misc\other.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\misc\scan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\misc\sir.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\misc\spanning_trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\internal\glpk_support.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\internal\hacks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\internal\lsap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\internal\qsort_r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\internal\qsort.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\internal\zeroin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\version.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\abort_.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\dolio.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_sin.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\dummy.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\dtime_.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\iio.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_sinh.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\backspac.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\due.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\ilnw.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_sqrt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\c_abs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\ef1asc_.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\inquire.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_tan.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\c_cos.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\ef1cmc_.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\l_ge.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_tanh.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\c_div.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\endfile.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\l_gt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\rdfmt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\c_exp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\erf_.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\l_le.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\rewind.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\c_log.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\erfc_.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\l_lt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\rsfe.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\c_sin.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\err.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\lbitbits.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\rsli.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\c_sqrt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\etime_.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\lbitshft.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\rsne.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\cabs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\exit_.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\lread.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\s_cat.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\close.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\f77_aloc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\lwrite.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\s_cmp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\ctype.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\f77vers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\s_copy.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_abs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\fmt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\open.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\s_paus.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_acos.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\fmtlib.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\pow_ci.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\s_rnge.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_asin.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\ftell_.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\pow_dd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\s_stop.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_atan.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\pow_di.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\sfe.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_atn2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\getenv_.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\pow_hh.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\sig_die.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_cnjg.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\h_abs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\pow_ii.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\signal_.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_cos.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\h_dim.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\pow_ri.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\signbit.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_cosh.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\h_dnnt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\pow_zi.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\sue.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_dim.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\h_indx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\pow_zz.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\system_.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_exp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\h_len.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_abs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\typesize.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_imag.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\h_mod.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_acos.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\uio.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\h_nint.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_asin.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\uninit.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_lg10.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\h_sign.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_atan.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\util.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_log.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\hl_ge.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_atn2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\wref.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_mod.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\hl_gt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_cnjg.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\wrtfmt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_nint.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\hl_le.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_cos.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\wsfe.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_prod.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\hl_lt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_cosh.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\wsle.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_sign.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\i77vers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_dim.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\wsne.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_sin.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\i_abs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_exp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\xwsne.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_sinh.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\i_dim.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_imag.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\z_abs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_sqrt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\i_dnnt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_int.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\z_cos.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_tan.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\i_indx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_lg10.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\z_div.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_tanh.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\i_len.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_log.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\z_exp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\derf_.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\i_mod.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_mod.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\z_log.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\derfc_.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\i_nint.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_nint.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\z_sin.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\dfe.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\i_sign.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_sign.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\z_sqrt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dnaupd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dnaup2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dgetv0.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dvout.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\second.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dmout.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dnaitr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\ivout.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dnapps.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dnconv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dneigh.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dlaqrb.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dngets.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dsortc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dstatn.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dneupd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dsaupd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dsaup2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dsaitr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dsapps.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dsconv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dseigt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dstqrb.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dsgets.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dsortr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dstats.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dseupd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\arpack_vendored.dir\$(Configuration)\dsesrt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\dscal.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\dswap.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\lsame.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\dnrm2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\daxpy.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\dgemv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\dger.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\dgemm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\dcopy.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\dtrmm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\dtrmv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\drot.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\ddot.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\dasum.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\dsymv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\dsyr2k.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\dsyr2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\dtrsm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\dsyrk.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\dtrsv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\blas_vendored.dir\$(Configuration)\idamax.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_add.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_happly.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_pvec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_amd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_house.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_qr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_chol.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_ipvec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_qrsol.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_cholsol.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_leaf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_randperm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_compress.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_load.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_reach.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_counts.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_lsolve.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_scatter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_cumsum.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_ltsolve.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_scc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_dfs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_lu.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_schol.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_dmperm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_lusol.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_spsolve.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_droptol.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_malloc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_sqr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_dropzeros.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_maxtrans.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_symperm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_dupl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_multiply.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_tdfs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_entry.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_norm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_transpose.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_ereach.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_permute.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_updown.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_etree.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_pinv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_usolve.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_fkeep.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_post.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_util.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_gaxpy.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\cs\cxsparse_vendored.dir\$(Configuration)\cs_utsolve.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpapi01.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpapi02.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpapi03.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpapi04.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpapi05.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpapi06.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpapi07.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpapi08.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpapi09.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpapi10.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpapi11.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpapi12.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpapi13.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpapi14.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpapi15.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpapi16.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpapi17.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpapi18.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpapi19.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpavl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpbfd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpbfx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpcpx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpdmp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpdmx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpenv01.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpenv02.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpenv03.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpenv04.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpenv05.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpenv06.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpenv07.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpenv08.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpfhv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpgmp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glphbm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpini01.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpini02.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpios01.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpios02.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpios03.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpios04.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpios05.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpios06.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpios07.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpios08.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpios09.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpios10.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpios11.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpios12.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpipm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glplib01.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glplib02.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glplib03.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glplpf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glplpx01.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glplpx02.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glplpx03.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpluf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glplux.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpmat.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpmpl01.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpmpl02.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpmpl03.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpmpl04.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpmpl05.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpmpl06.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpmps.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpnet01.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpnet02.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpnet03.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpnet04.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpnet05.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpnet06.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpnet07.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpnet08.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpnet09.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpnpp01.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpnpp02.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpnpp03.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpnpp04.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpnpp05.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpqmd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glprgr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glprng01.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glprng02.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpscf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpscl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpsdf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpspm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpspx01.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpspx02.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpsql.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpssx01.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glpssx02.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\glptsp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\amd_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\amd_2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\amd_aat.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\amd_control.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\amd_defaults.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\amd_info.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\amd_order.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\amd_post_tree.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\amd_postorder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\amd_preprocess.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\amd_valid.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\colamd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\glpk\glpk_vendored.dir\$(Configuration)\amd_dump.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\mini-gmp\gmp_vendored.dir\$(Configuration)\mini-gmp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dgeev.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dgebak.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dgebal.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\disnan.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlaisnan.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dgehrd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dgehd2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlarf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\iladlc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\iladlr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlarfg.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlapy2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlahr2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlacpy.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlarfb.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\ilaenv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\ieeeck.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\iparmq.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dhseqr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlahqr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlabad.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlanv2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlaqr0.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlaqr3.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlaqr4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlaqr2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlaset.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dormhr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dormqr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlarft.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dorm2r.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dtrexc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlaexc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlange.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlassq.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlarfx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlartg.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlasy2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlaqr5.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlaqr1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlascl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dorghr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dorgqr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dorg2r.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dtrevc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlaln2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dladiv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dsyevr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlansy.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dormtr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dormql.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dorm2l.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dstebz.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlaebz.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dstein.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlagtf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlagts.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlarnv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlaruv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dstemr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlae2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlaev2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlanst.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlarrc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlarre.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlarra.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlarrb.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlaneg.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlarrd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlarrk.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlasq2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlasq3.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlasq4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlasq5.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlasq6.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlasrt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlarrj.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlarrr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlarrv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlar1v.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlarrf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dsterf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dsytrd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlatrd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dsytd2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlanhs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dgeqr2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dtrsen.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlacn2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dtrsyl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlasr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dsteqr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dgeevx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dtrsna.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlaqtr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dgetrf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dgetf2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlaswp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dgetrs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dgesv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dpotrf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dpotf2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\xerbla.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\len_trim.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\dlamch.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\lapack_vendored.dir\$(Configuration)\fortran_intrinsics.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src\isomorphism\bliss\bliss.dir\$(Configuration)\defs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src\isomorphism\bliss\bliss.dir\$(Configuration)\graph.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src\isomorphism\bliss\bliss.dir\$(Configuration)\heap.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src\isomorphism\bliss\bliss.dir\$(Configuration)\orbit.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src\isomorphism\bliss\bliss.dir\$(Configuration)\partition.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src\isomorphism\bliss\bliss.dir\$(Configuration)\uintseqhash.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src\isomorphism\bliss\bliss.dir\$(Configuration)\utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src\cliques\cliquer\cliquer.dir\$(Configuration)\cliquer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src\cliques\cliquer\cliquer.dir\$(Configuration)\cliquer_graph.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src\cliques\cliquer\cliquer.dir\$(Configuration)\reorder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\plfit\plfit.dir\$(Configuration)\error.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\plfit\plfit.dir\$(Configuration)\gss.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\plfit\plfit.dir\$(Configuration)\hzeta.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\plfit\plfit.dir\$(Configuration)\kolmogorov.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\plfit\plfit.dir\$(Configuration)\lbfgs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\plfit\plfit.dir\$(Configuration)\mt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\plfit\plfit.dir\$(Configuration)\options.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\plfit\plfit.dir\$(Configuration)\platform.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\plfit\plfit.dir\$(Configuration)\plfit.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\plfit\plfit.dir\$(Configuration)\rbinom.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\plfit\plfit.dir\$(Configuration)\sampling.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src\centrality\prpack\prpack.dir\$(Configuration)\prpack_base_graph.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src\centrality\prpack\prpack.dir\$(Configuration)\prpack_igraph_graph.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src\centrality\prpack\prpack.dir\$(Configuration)\prpack_preprocessed_ge_graph.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src\centrality\prpack\prpack.dir\$(Configuration)\prpack_preprocessed_gs_graph.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src\centrality\prpack\prpack.dir\$(Configuration)\prpack_preprocessed_scc_graph.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src\centrality\prpack\prpack.dir\$(Configuration)\prpack_preprocessed_schur_graph.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src\centrality\prpack\prpack.dir\$(Configuration)\prpack_result.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src\centrality\prpack\prpack.dir\$(Configuration)\prpack_solver.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src\centrality\prpack\prpack.dir\$(Configuration)\prpack_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{60186B0B-8028-3F22-AEE8-681F9064107F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{762885DD-E78E-3791-831B-1F14D214593B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

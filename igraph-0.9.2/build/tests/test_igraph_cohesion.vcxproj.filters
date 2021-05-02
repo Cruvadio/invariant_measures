@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\tests\unit\igraph_cohesion.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{762885DD-E78E-3791-831B-1F14D214593B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

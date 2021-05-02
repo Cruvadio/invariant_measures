@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpapi01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpapi02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpapi03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpapi04.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpapi05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpapi06.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpapi07.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpapi08.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpapi09.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpapi10.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpapi11.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpapi12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpapi13.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpapi14.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpapi15.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpapi16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpapi17.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpapi18.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpapi19.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpavl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpbfd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpbfx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpcpx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpdmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpdmx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpenv01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpenv02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpenv03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpenv04.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpenv05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpenv06.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpenv07.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpenv08.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpfhv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpgmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glphbm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpini01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpini02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpios01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpios02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpios03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpios04.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpios05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpios06.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpios07.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpios08.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpios09.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpios10.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpios11.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpios12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpipm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glplib01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glplib02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glplib03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glplpf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glplpx01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glplpx02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glplpx03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpluf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glplux.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpmat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpmpl01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpmpl02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpmpl03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpmpl04.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpmpl05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpmpl06.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpmps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpnet01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpnet02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpnet03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpnet04.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpnet05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpnet06.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpnet07.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpnet08.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpnet09.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpnpp01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpnpp02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpnpp03.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpnpp04.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpnpp05.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpqmd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glprgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glprng01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glprng02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpscf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpscl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpsdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpspm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpspx01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpspx02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpsql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpssx01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpssx02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glptsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\amd\amd_1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\amd\amd_2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\amd\amd_aat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\amd\amd_control.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\amd\amd_defaults.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\amd\amd_info.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\amd\amd_order.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\amd\amd_post_tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\amd\amd_postorder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\amd\amd_preprocess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\amd\amd_valid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\colamd\colamd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\amd\amd_dump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpluf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpnpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpqmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpspm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpspx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\glpstd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\glpk\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2D96AD62-A35A-3AAD-8764-B3FFF0C9CCE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{762885DD-E78E-3791-831B-1F14D214593B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

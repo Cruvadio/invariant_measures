@@ -1,0 +1,1717 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B2430F90-BA4D-3C56-932C-711031F1F83B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>build_tests</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\tests\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Death/source/repos/Symbol_2/igraph-0.9.2 -BC:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/build --check-stamp-file C:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/build/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\etc\cmake\benchmark_helpers.cmake;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\etc\cmake\test_helpers.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Death/source/repos/Symbol_2/igraph-0.9.2 -BC:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/build --check-stamp-file C:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/build/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\etc\cmake\benchmark_helpers.cmake;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\etc\cmake\test_helpers.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Death/source/repos/Symbol_2/igraph-0.9.2 -BC:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/build --check-stamp-file C:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/build/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\etc\cmake\benchmark_helpers.cmake;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\etc\cmake\test_helpers.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Death/source/repos/Symbol_2/igraph-0.9.2 -BC:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/build --check-stamp-file C:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/build/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\etc\cmake\benchmark_helpers.cmake;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\etc\cmake\test_helpers.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\ZERO_CHECK.vcxproj">
+      <Project>{EC6356D6-A43E-3BF1-B490-A63C4E17EB57}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_adjlist.vcxproj">
+      <Project>{AFE0ECF7-40AE-3E2A-AD86-710373E0EDA2}</Project>
+      <Name>example_adjlist</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_assortativity.vcxproj">
+      <Project>{FA620850-6D60-32E8-B24A-74445F5F870E}</Project>
+      <Name>example_assortativity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_bellman_ford.vcxproj">
+      <Project>{99A0BD28-2300-3D34-82EC-D1168A02F44A}</Project>
+      <Name>example_bellman_ford</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_blas.vcxproj">
+      <Project>{AE1DB868-7E99-3C2F-A137-419321C1AC19}</Project>
+      <Name>example_blas</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_cattributes.vcxproj">
+      <Project>{E6E9CC16-02C4-3E2F-AB09-1E980D530F49}</Project>
+      <Name>example_cattributes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_cattributes2.vcxproj">
+      <Project>{45577B47-BED6-3401-A8FB-42F3CC5709E0}</Project>
+      <Name>example_cattributes2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_cattributes3.vcxproj">
+      <Project>{0FAA8AAF-94E7-3AB7-868B-44E642CEDA50}</Project>
+      <Name>example_cattributes3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_cattributes4.vcxproj">
+      <Project>{D7D820DA-172A-3F0E-BC25-4531B98FDB79}</Project>
+      <Name>example_cattributes4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_centralization.vcxproj">
+      <Project>{690B358F-47AC-3C25-B175-CC7FE06533B0}</Project>
+      <Name>example_centralization</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_cohesive_blocks.vcxproj">
+      <Project>{CD0AB541-1BB7-30A7-B6FD-83816A0BF898}</Project>
+      <Name>example_cohesive_blocks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_dijkstra.vcxproj">
+      <Project>{49CA2022-03D4-344C-A211-C0A1129F76C1}</Project>
+      <Name>example_dijkstra</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_dominator_tree.vcxproj">
+      <Project>{0E8EB599-20F3-3A2F-BC58-C41A0D50B4D2}</Project>
+      <Name>example_dominator_tree</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_dot.vcxproj">
+      <Project>{C351BF29-14D6-3AD8-AC43-C45D1A967FD4}</Project>
+      <Name>example_dot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_dqueue.vcxproj">
+      <Project>{F4BC07BD-B49E-3DF9-9878-143DF4FE73F5}</Project>
+      <Name>example_dqueue</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_eigenvector_centrality.vcxproj">
+      <Project>{4D8E9DE6-23A7-362F-9119-85821642B60D}</Project>
+      <Name>example_eigenvector_centrality</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_even_tarjan.vcxproj">
+      <Project>{EBF2812B-6AE4-334D-BB6D-07E1D81C6AFC}</Project>
+      <Name>example_even_tarjan</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_flow.vcxproj">
+      <Project>{D792D4C3-094F-39EB-A11C-6B3A46B380CF}</Project>
+      <Name>example_flow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_flow2.vcxproj">
+      <Project>{42C542C1-3B88-3973-AF78-98D1C0380E54}</Project>
+      <Name>example_flow2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_foreign.vcxproj">
+      <Project>{C3F79A66-FBAB-3614-B524-E7E14DB548D2}</Project>
+      <Name>example_foreign</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_gml.vcxproj">
+      <Project>{A1208B52-EA4E-3DE7-BFB8-0DBBE2DB1E2C}</Project>
+      <Name>example_gml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_graphml.vcxproj">
+      <Project>{3466F357-DD80-3312-AB67-804EB64BB32D}</Project>
+      <Name>example_graphml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_add_edges.vcxproj">
+      <Project>{A494B9EF-E4EB-392C-A8AA-CC9E263A8165}</Project>
+      <Name>example_igraph_add_edges</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_add_vertices.vcxproj">
+      <Project>{F85B9831-4724-38DA-BF15-590DE5714C55}</Project>
+      <Name>example_igraph_add_vertices</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_adjacency.vcxproj">
+      <Project>{276F1185-C540-3EAF-B4F0-4CEE801693EA}</Project>
+      <Name>example_igraph_adjacency</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_all_st_mincuts.vcxproj">
+      <Project>{762CB289-849D-3EB8-93A3-711012EE0889}</Project>
+      <Name>example_igraph_all_st_mincuts</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_atlas.vcxproj">
+      <Project>{0D77A454-C713-3D5E-805B-FE8163FB4F53}</Project>
+      <Name>example_igraph_atlas</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_average_path_length.vcxproj">
+      <Project>{96A6F028-15EC-3913-A1DC-F2F1A3FCB733}</Project>
+      <Name>example_igraph_average_path_length</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_barabasi_game.vcxproj">
+      <Project>{AB2630A8-1366-377D-A621-B98DA3D3E731}</Project>
+      <Name>example_igraph_barabasi_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_barabasi_game2.vcxproj">
+      <Project>{23A4AC3A-88A6-3E88-991F-F3FBCBA7E019}</Project>
+      <Name>example_igraph_barabasi_game2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_bfs.vcxproj">
+      <Project>{AED78EA2-9C7B-3A52-B383-91AFE33E5BDB}</Project>
+      <Name>example_igraph_bfs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_bfs_callback.vcxproj">
+      <Project>{6B68552E-E406-33C7-8E9E-1F80B28731FB}</Project>
+      <Name>example_igraph_bfs_callback</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_bfs_simple.vcxproj">
+      <Project>{98EEC0CB-904E-30A7-A843-D1ACB1411DA4}</Project>
+      <Name>example_igraph_bfs_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_biconnected_components.vcxproj">
+      <Project>{3A660866-EAAC-3CEC-8229-D9FDC7A3FE54}</Project>
+      <Name>example_igraph_biconnected_components</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_bipartite_create.vcxproj">
+      <Project>{A78F3309-9EE3-3237-A215-2E46698BF23A}</Project>
+      <Name>example_igraph_bipartite_create</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_bipartite_projection.vcxproj">
+      <Project>{036BFF57-B214-391A-881B-61A32A3CFDF6}</Project>
+      <Name>example_igraph_bipartite_projection</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_cliques.vcxproj">
+      <Project>{27A25A4B-64B8-3DE1-8D4F-C2AC0C58545D}</Project>
+      <Name>example_igraph_cliques</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_cocitation.vcxproj">
+      <Project>{587272CD-286B-3C5C-8CAD-0E5B32436460}</Project>
+      <Name>example_igraph_cocitation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_coloring.vcxproj">
+      <Project>{049F4B4D-9335-39F5-92E2-03B5D6AC9FA5}</Project>
+      <Name>example_igraph_coloring</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_community_edge_betweenness.vcxproj">
+      <Project>{AE712974-6BE6-393E-8E95-EFAC9CFFD274}</Project>
+      <Name>example_igraph_community_edge_betweenness</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_community_fastgreedy.vcxproj">
+      <Project>{2C25FB17-AC7C-3189-9066-69561C3DDCF2}</Project>
+      <Name>example_igraph_community_fastgreedy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_community_fluid_communities.vcxproj">
+      <Project>{ECDCA5AA-1B68-35FA-8617-F5C667804326}</Project>
+      <Name>example_igraph_community_fluid_communities</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_community_label_propagation.vcxproj">
+      <Project>{CC43B8A7-7764-3F4C-B1A7-1C9F4A34C961}</Project>
+      <Name>example_igraph_community_label_propagation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_community_leading_eigenvector.vcxproj">
+      <Project>{84D95823-3CF7-3E2D-BC88-1E800B8CC91F}</Project>
+      <Name>example_igraph_community_leading_eigenvector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_community_leiden.vcxproj">
+      <Project>{AE4B42BA-AC90-30DB-9B14-37CDF4BFD368}</Project>
+      <Name>example_igraph_community_leiden</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_community_multilevel.vcxproj">
+      <Project>{521BC44D-F80F-346B-A8D5-4BED43487091}</Project>
+      <Name>example_igraph_community_multilevel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_community_optimal_modularity.vcxproj">
+      <Project>{29B28A23-EB5B-31F3-A2A5-97690B9A57E8}</Project>
+      <Name>example_igraph_community_optimal_modularity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_complementer.vcxproj">
+      <Project>{06C446A2-4682-3885-B1A6-7DF70034CCDE}</Project>
+      <Name>example_igraph_complementer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_compose.vcxproj">
+      <Project>{D8184C79-D8EF-3868-B8E4-C56765D63A9D}</Project>
+      <Name>example_igraph_compose</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_convex_hull.vcxproj">
+      <Project>{4F13FE18-17C5-3180-AEF7-5A2F9B2B4234}</Project>
+      <Name>example_igraph_convex_hull</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_copy.vcxproj">
+      <Project>{B212EE9F-49D4-3B6D-95C9-70A3AFADC10A}</Project>
+      <Name>example_igraph_copy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_create.vcxproj">
+      <Project>{4CD960CD-ECF9-3614-9DB3-064A172D6F08}</Project>
+      <Name>example_igraph_create</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_decompose.vcxproj">
+      <Project>{2350B9CC-04E3-3B20-8913-47CE0A980AC3}</Project>
+      <Name>example_igraph_decompose</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_degree.vcxproj">
+      <Project>{417A5E62-0140-313D-8836-009588A2B3B8}</Project>
+      <Name>example_igraph_degree</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_degree_sequence_game.vcxproj">
+      <Project>{F77603D1-6A56-32F3-BC55-362513B98D64}</Project>
+      <Name>example_igraph_degree_sequence_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_delete_edges.vcxproj">
+      <Project>{903F4B5E-FFD3-3061-9C1C-7CB3C45C0C30}</Project>
+      <Name>example_igraph_delete_edges</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_delete_vertices.vcxproj">
+      <Project>{AD88421A-007C-3629-B7BD-0E1C371F9C0D}</Project>
+      <Name>example_igraph_delete_vertices</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_deterministic_optimal_imitation.vcxproj">
+      <Project>{9B289015-369D-35CB-B924-E55E9F10F0CF}</Project>
+      <Name>example_igraph_deterministic_optimal_imitation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_diameter.vcxproj">
+      <Project>{A31F92B0-292A-32CF-8466-174D8055671F}</Project>
+      <Name>example_igraph_diameter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_difference.vcxproj">
+      <Project>{794249D6-763E-33D0-B46E-599AEF3C5A5E}</Project>
+      <Name>example_igraph_difference</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_disjoint_union.vcxproj">
+      <Project>{3A65B7FA-1894-3DE8-9E49-BB92EFD771D0}</Project>
+      <Name>example_igraph_disjoint_union</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_eccentricity.vcxproj">
+      <Project>{C6DCCEAF-8A05-3C2C-8DAC-231AD8579686}</Project>
+      <Name>example_igraph_eccentricity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_empty.vcxproj">
+      <Project>{401375CE-9DC8-3770-BB6C-3520642919E9}</Project>
+      <Name>example_igraph_empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_erdos_renyi_game.vcxproj">
+      <Project>{DF9EE438-E845-3636-853D-1C3AB972D855}</Project>
+      <Name>example_igraph_erdos_renyi_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_es_pairs.vcxproj">
+      <Project>{1CD5570F-3305-39BA-9AD9-11E25B77127E}</Project>
+      <Name>example_igraph_es_pairs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_feedback_arc_set.vcxproj">
+      <Project>{7D31CFF2-83F3-3E72-A29E-FDE97A7E638F}</Project>
+      <Name>example_igraph_feedback_arc_set</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_feedback_arc_set_ip.vcxproj">
+      <Project>{498D9A78-1C83-38CD-B472-EC9E36DAE4FC}</Project>
+      <Name>example_igraph_feedback_arc_set_ip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_fisher_yates_shuffle.vcxproj">
+      <Project>{3D077678-8D96-3576-BB18-8F0BFDFA76FE}</Project>
+      <Name>example_igraph_fisher_yates_shuffle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_free.vcxproj">
+      <Project>{42122185-D2C4-3060-B90C-343CBB753E02}</Project>
+      <Name>example_igraph_free</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_full.vcxproj">
+      <Project>{F7D5AEA8-A58B-38B4-A3AE-6DA1DBA03ABA}</Project>
+      <Name>example_igraph_full</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_get_all_shortest_paths_dijkstra.vcxproj">
+      <Project>{D0E70C2F-984C-36AC-A507-5342CAAC1638}</Project>
+      <Name>example_igraph_get_all_shortest_paths_dijkstra</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_get_eid.vcxproj">
+      <Project>{42B1E4DC-966D-314A-A725-32BBE41437DB}</Project>
+      <Name>example_igraph_get_eid</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_get_eids.vcxproj">
+      <Project>{A987E7E5-BB28-3DC7-A1AF-41552193372D}</Project>
+      <Name>example_igraph_get_eids</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_get_shortest_paths.vcxproj">
+      <Project>{3023B12F-CEDC-3C11-A23D-737EA2D10BF2}</Project>
+      <Name>example_igraph_get_shortest_paths</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_get_shortest_paths_dijkstra.vcxproj">
+      <Project>{CFB2A806-FF68-33B0-8899-9650EB45D000}</Project>
+      <Name>example_igraph_get_shortest_paths_dijkstra</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_girth.vcxproj">
+      <Project>{DBA879BB-26CE-357C-B7AE-61FED9513C16}</Project>
+      <Name>example_igraph_girth</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_grg_game.vcxproj">
+      <Project>{15369AF7-7ADF-39C4-9F19-898C0B65410C}</Project>
+      <Name>example_igraph_grg_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_has_multiple.vcxproj">
+      <Project>{D0EE3926-53B3-3221-AA66-0BE500F6CC75}</Project>
+      <Name>example_igraph_has_multiple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_independent_sets.vcxproj">
+      <Project>{8195B447-2EE7-38DE-9A6A-AFE70C0E626E}</Project>
+      <Name>example_igraph_independent_sets</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_intersection.vcxproj">
+      <Project>{3D262F4D-FBF9-3DF1-94E8-18D4F5E3BA6F}</Project>
+      <Name>example_igraph_intersection</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_is_directed.vcxproj">
+      <Project>{488C7167-DB6B-3562-91CF-FCDCFBC583E5}</Project>
+      <Name>example_igraph_is_directed</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_is_loop.vcxproj">
+      <Project>{96E3EE6D-A423-38BC-8F20-7D56FA670D2D}</Project>
+      <Name>example_igraph_is_loop</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_is_minimal_separator.vcxproj">
+      <Project>{851AFDB4-4787-3B42-8411-A3F4E96C6723}</Project>
+      <Name>example_igraph_is_minimal_separator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_is_multiple.vcxproj">
+      <Project>{313766FC-4723-35CB-A07D-15EC0C73F7DD}</Project>
+      <Name>example_igraph_is_multiple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_is_separator.vcxproj">
+      <Project>{73881CAE-AC56-32BD-B0D3-ED6BEB1B38C7}</Project>
+      <Name>example_igraph_is_separator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_isomorphic_vf2.vcxproj">
+      <Project>{B51BCCA3-E176-39D0-B2E6-5CEF29E42DBC}</Project>
+      <Name>example_igraph_isomorphic_vf2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_knn.vcxproj">
+      <Project>{A0C02C7F-AC03-38D1-901C-B382332C0912}</Project>
+      <Name>example_igraph_knn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_lapack_dgeev.vcxproj">
+      <Project>{2B3F49CE-D00F-3FBD-9F4E-4C05479CEF8B}</Project>
+      <Name>example_igraph_lapack_dgeev</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_lapack_dgeevx.vcxproj">
+      <Project>{09ED5399-E400-3FC2-91CD-E6D8DCBC7B9E}</Project>
+      <Name>example_igraph_lapack_dgeevx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_lapack_dgesv.vcxproj">
+      <Project>{ADE83C89-575B-3C66-A03B-3F8315A11F69}</Project>
+      <Name>example_igraph_lapack_dgesv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_lapack_dsyevr.vcxproj">
+      <Project>{DDB21247-24E8-359D-8D57-C5365A07025B}</Project>
+      <Name>example_igraph_lapack_dsyevr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_laplacian.vcxproj">
+      <Project>{38AD645F-83B8-3947-B971-F65A20980920}</Project>
+      <Name>example_igraph_laplacian</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_layout_reingold_tilford.vcxproj">
+      <Project>{76F4BCB3-EE24-3B5F-BE11-E0730E0FBD1A}</Project>
+      <Name>example_igraph_layout_reingold_tilford</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_lcf.vcxproj">
+      <Project>{670B4BF8-107F-38F2-A2CD-0B48491768DB}</Project>
+      <Name>example_igraph_lcf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_maximal_cliques.vcxproj">
+      <Project>{57E7361D-CBB8-3944-B04C-9A0A7BD4D342}</Project>
+      <Name>example_igraph_maximal_cliques</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_maximum_bipartite_matching.vcxproj">
+      <Project>{5ED8757D-7C70-39C8-AB75-2BA8D0910664}</Project>
+      <Name>example_igraph_maximum_bipartite_matching</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_mincut.vcxproj">
+      <Project>{26BA8ACC-BA01-325F-A78C-B96984112125}</Project>
+      <Name>example_igraph_mincut</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_minimal_separators.vcxproj">
+      <Project>{2FDBD3B4-EC84-3FA8-9F40-ED34361C463F}</Project>
+      <Name>example_igraph_minimal_separators</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_minimum_size_separators.vcxproj">
+      <Project>{DFA97A2A-EC8C-37E7-A1D5-BCBF5575487C}</Project>
+      <Name>example_igraph_minimum_size_separators</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_minimum_spanning_tree.vcxproj">
+      <Project>{8054F7C6-7926-378A-9357-1C7196939889}</Project>
+      <Name>example_igraph_minimum_spanning_tree</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_motifs_randesu.vcxproj">
+      <Project>{0F1F4AB0-7E02-3380-A414-407E62EBEFF4}</Project>
+      <Name>example_igraph_motifs_randesu</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_neighbors.vcxproj">
+      <Project>{218A4F3B-4545-3CE0-8DE5-BA40493789F6}</Project>
+      <Name>example_igraph_neighbors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_pagerank.vcxproj">
+      <Project>{FFF8D3C4-5ED3-3256-A922-877FBE4925CE}</Project>
+      <Name>example_igraph_pagerank</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_power_law_fit.vcxproj">
+      <Project>{B79AC16A-2478-3F76-9BFE-03994E034F0F}</Project>
+      <Name>example_igraph_power_law_fit</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_radius.vcxproj">
+      <Project>{521BA36C-3079-322D-B950-919C7893EACD}</Project>
+      <Name>example_igraph_radius</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_random_sample.vcxproj">
+      <Project>{96DAA4DA-7E75-3FF6-AE3E-E72CDB79D21A}</Project>
+      <Name>example_igraph_random_sample</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_read_graph_dl.vcxproj">
+      <Project>{8426B804-E540-3D44-9E93-729DB302EE6D}</Project>
+      <Name>example_igraph_read_graph_dl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_read_graph_graphdb.vcxproj">
+      <Project>{4C9C79AD-2445-3DD4-821C-259FAC1D397A}</Project>
+      <Name>example_igraph_read_graph_graphdb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_read_graph_lgl.vcxproj">
+      <Project>{AF5084A8-31FA-312F-95B4-4187DD738C1F}</Project>
+      <Name>example_igraph_read_graph_lgl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_reciprocity.vcxproj">
+      <Project>{1D44E363-BD26-31CE-9961-D340CE8A934D}</Project>
+      <Name>example_igraph_reciprocity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_ring.vcxproj">
+      <Project>{0FBD4D10-E5D3-3BE3-9A66-7EEDEA55EE66}</Project>
+      <Name>example_igraph_ring</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_roulette_wheel_imitation.vcxproj">
+      <Project>{62E7D77B-C855-35CB-9CB9-9ADB17CBD0D1}</Project>
+      <Name>example_igraph_roulette_wheel_imitation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_scg_grouping.vcxproj">
+      <Project>{73D3805B-330D-3B0E-973F-F0DFB6912E5C}</Project>
+      <Name>example_igraph_scg_grouping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_scg_grouping2.vcxproj">
+      <Project>{07AB53F8-5D86-3129-83F2-4C2D3A352800}</Project>
+      <Name>example_igraph_scg_grouping2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_scg_grouping3.vcxproj">
+      <Project>{A7F7FB63-D0C7-318E-B9E0-19CE71AEBB1F}</Project>
+      <Name>example_igraph_scg_grouping3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_scg_grouping4.vcxproj">
+      <Project>{C1E6AB91-ABDE-3207-87CC-7961EBA1F721}</Project>
+      <Name>example_igraph_scg_grouping4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_scg_semiprojectors.vcxproj">
+      <Project>{17C67A20-0AF5-378D-AFA1-CB5A3A952FD7}</Project>
+      <Name>example_igraph_scg_semiprojectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_scg_semiprojectors2.vcxproj">
+      <Project>{B74A90D8-1B2C-3E3A-9C6F-B09CBF549FA4}</Project>
+      <Name>example_igraph_scg_semiprojectors2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_scg_semiprojectors3.vcxproj">
+      <Project>{8AE6D95D-8F0F-39F7-B2CE-5FBCDD9CC7DC}</Project>
+      <Name>example_igraph_scg_semiprojectors3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_similarity.vcxproj">
+      <Project>{F6069D62-B5EC-3A84-8F3A-9EF21EDA4457}</Project>
+      <Name>example_igraph_similarity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_simplify.vcxproj">
+      <Project>{D5C3402E-801A-3D7C-A277-A804A2D44D45}</Project>
+      <Name>example_igraph_simplify</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_small.vcxproj">
+      <Project>{C508FA51-0AB8-32A0-813F-23AFEE737563}</Project>
+      <Name>example_igraph_small</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_sparsemat.vcxproj">
+      <Project>{DE0FC972-26FD-3576-A7DA-595A5CAA1BDF}</Project>
+      <Name>example_igraph_sparsemat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_sparsemat3.vcxproj">
+      <Project>{9349B772-0DFC-3A0E-8435-267E9ACFAD1A}</Project>
+      <Name>example_igraph_sparsemat3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_sparsemat4.vcxproj">
+      <Project>{E5AECD23-2BB3-38A1-B598-0F05482BBCAA}</Project>
+      <Name>example_igraph_sparsemat4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_sparsemat6.vcxproj">
+      <Project>{1B27762D-CC65-39A5-AD11-209C55A5DDE7}</Project>
+      <Name>example_igraph_sparsemat6</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_sparsemat7.vcxproj">
+      <Project>{942FF072-F60B-3D1D-A812-F4DBF4909977}</Project>
+      <Name>example_igraph_sparsemat7</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_sparsemat8.vcxproj">
+      <Project>{73776102-0EC3-3DFC-BBB3-E633019E2C44}</Project>
+      <Name>example_igraph_sparsemat8</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_star.vcxproj">
+      <Project>{5675E1D1-23C3-31FC-A348-18A06FD63AB6}</Project>
+      <Name>example_igraph_star</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_stochastic_imitation.vcxproj">
+      <Project>{5F5652BD-F678-31DD-949B-F9C2399BA214}</Project>
+      <Name>example_igraph_stochastic_imitation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_strvector.vcxproj">
+      <Project>{CFFD0487-8B18-3EBC-80F1-563F37F26190}</Project>
+      <Name>example_igraph_strvector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_subisomorphic_lad.vcxproj">
+      <Project>{321C8020-45B1-3B15-8D95-DF942D81133E}</Project>
+      <Name>example_igraph_subisomorphic_lad</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_to_undirected.vcxproj">
+      <Project>{CE78673E-2E6A-3735-84A9-F1EE04BE7FE4}</Project>
+      <Name>example_igraph_to_undirected</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_topological_sorting.vcxproj">
+      <Project>{959A32EA-5D2C-3026-97DA-255046440782}</Project>
+      <Name>example_igraph_topological_sorting</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_transitivity.vcxproj">
+      <Project>{DE6C0F7F-9DF1-3891-857C-CE368FA86AB2}</Project>
+      <Name>example_igraph_transitivity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_tree.vcxproj">
+      <Project>{ECC52B5C-C9FB-38DD-8A4E-C9E458E14835}</Project>
+      <Name>example_igraph_tree</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_union.vcxproj">
+      <Project>{43BFE36C-C344-3715-8BEF-EF816D48DCE9}</Project>
+      <Name>example_igraph_union</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_version.vcxproj">
+      <Project>{ECEB28AD-8AA9-3A9D-8AF7-265ADBF06674}</Project>
+      <Name>example_igraph_version</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_vs_nonadj.vcxproj">
+      <Project>{2889E204-CEFB-33A1-B35C-CF8822E3150E}</Project>
+      <Name>example_igraph_vs_nonadj</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_vs_seq.vcxproj">
+      <Project>{A72F995D-3264-36FD-A065-27E848546227}</Project>
+      <Name>example_igraph_vs_seq</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_vs_vector.vcxproj">
+      <Project>{BBF9DC0E-5A25-3EE5-B1E7-B09B9F5BC323}</Project>
+      <Name>example_igraph_vs_vector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_weighted_adjacency.vcxproj">
+      <Project>{BE38EBC6-71FC-3AEB-8114-9AB02B6AF0A2}</Project>
+      <Name>example_igraph_weighted_adjacency</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_write_graph_lgl.vcxproj">
+      <Project>{57E0A0A8-2B76-35E6-A3DD-4FC414161FB6}</Project>
+      <Name>example_igraph_write_graph_lgl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_igraph_write_graph_pajek.vcxproj">
+      <Project>{E58F8BFC-8B08-3DDC-8A31-31C021EECAB1}</Project>
+      <Name>example_igraph_write_graph_pajek</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_random_seed.vcxproj">
+      <Project>{98971D10-D775-3B82-A61E-08654E2BCEE2}</Project>
+      <Name>example_random_seed</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_scg.vcxproj">
+      <Project>{7FD18A6F-BF81-3B9D-8085-259E02F83658}</Project>
+      <Name>example_scg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_tutorial1.vcxproj">
+      <Project>{F6799908-7CA1-300B-833A-D0B1AAEF9C95}</Project>
+      <Name>example_tutorial1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_tutorial2.vcxproj">
+      <Project>{24B4E744-BAD3-3F12-ABD5-DE0CBE399736}</Project>
+      <Name>example_tutorial2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_tutorial3.vcxproj">
+      <Project>{690D109A-61CE-3D16-8D14-CDA76F78BFB0}</Project>
+      <Name>example_tutorial3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\example_walktrap.vcxproj">
+      <Project>{CE391255-446F-319A-BFD9-DF1444FEA4D0}</Project>
+      <Name>example_walktrap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_2wheap.vcxproj">
+      <Project>{2A73919F-6529-33FA-8F16-333925893CAE}</Project>
+      <Name>test_2wheap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_VF2-compat.vcxproj">
+      <Project>{489EF618-C643-3E6F-9FCB-0EC2DDF7D4B1}</Project>
+      <Name>test_VF2-compat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_adjlist.vcxproj">
+      <Project>{768C7C26-F524-35A6-833D-B652F0C8C586}</Project>
+      <Name>test_adjlist</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_all_shortest_paths.vcxproj">
+      <Project>{25B39254-1BA8-3972-A4D6-471740F254EC}</Project>
+      <Name>test_all_shortest_paths</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_bfs.vcxproj">
+      <Project>{8788533E-63CD-3F01-8AB8-6E94DED8132A}</Project>
+      <Name>test_bfs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_bfs_simple.vcxproj">
+      <Project>{BC375923-1DC5-330C-B799-2E268E9F817A}</Project>
+      <Name>test_bfs_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_bliss_automorphisms.vcxproj">
+      <Project>{FEBFD9D3-682C-33FE-8F17-47242640D15A}</Project>
+      <Name>test_bliss_automorphisms</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_bug-1033045.vcxproj">
+      <Project>{7EE9DD74-F861-3649-975E-3FAE3AC3C8DE}</Project>
+      <Name>test_bug-1033045</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_bug-1149658.vcxproj">
+      <Project>{AF85487F-B135-30E2-980B-9E3257E60810}</Project>
+      <Name>test_bug-1149658</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_bug_1760.vcxproj">
+      <Project>{1043137E-EEF2-37B1-8322-68B7DD106E8E}</Project>
+      <Name>test_bug_1760</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_cattr_bool_bug.vcxproj">
+      <Project>{48F3932C-1720-32FE-9F8F-7EFC2100EC1F}</Project>
+      <Name>test_cattr_bool_bug</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_cattr_bool_bug2.vcxproj">
+      <Project>{C06B687D-5715-391A-B766-184DDE68AF35}</Project>
+      <Name>test_cattr_bool_bug2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_cattributes5.vcxproj">
+      <Project>{ED59E7A6-13A2-37E7-AC31-B6865005DF67}</Project>
+      <Name>test_cattributes5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_community_label_propagation.vcxproj">
+      <Project>{367402CF-940D-3938-A6F0-45CC137064FA}</Project>
+      <Name>test_community_label_propagation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_community_leiden.vcxproj">
+      <Project>{434330FE-5856-3EC4-A806-DF39C6A6B6AE}</Project>
+      <Name>test_community_leiden</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_cutheap.vcxproj">
+      <Project>{0DC04873-3A3B-3FF1-BC5C-8ED47322E587}</Project>
+      <Name>test_cutheap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_d_indheap.vcxproj">
+      <Project>{A2343FDD-6CF7-3ED0-A3B9-67879296BE50}</Project>
+      <Name>test_d_indheap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_edge_selectors.vcxproj">
+      <Project>{3F109C93-9E82-3EF2-A1C3-5C9F66A27BCE}</Project>
+      <Name>test_edge_selectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_efficiency.vcxproj">
+      <Project>{01DA5C18-E399-3179-98C7-397384681952}</Project>
+      <Name>test_efficiency</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_erdos_renyi_game.vcxproj">
+      <Project>{A673088E-C784-34CF-9C60-0AD38E3733F2}</Project>
+      <Name>test_erdos_renyi_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_error_macros.vcxproj">
+      <Project>{1EA243F4-C1A0-391E-8927-BAB14442550C}</Project>
+      <Name>test_error_macros</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_fatal_handler.vcxproj">
+      <Project>{63682164-FA29-3D0B-A3C7-68A422950129}</Project>
+      <Name>test_fatal_handler</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_full.vcxproj">
+      <Project>{F7EC0B79-0812-3E53-9D38-0F57386C2C2C}</Project>
+      <Name>test_full</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_glpk_error.vcxproj">
+      <Project>{BD7FC75C-3704-304F-99DB-01FA7AABBBBE}</Project>
+      <Name>test_glpk_error</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_harmonic_centrality.vcxproj">
+      <Project>{46DB90B8-2751-3606-A3B7-A5FFAC8591DA}</Project>
+      <Name>test_harmonic_centrality</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_hashtable.vcxproj">
+      <Project>{0F2BD3A9-91F4-3637-835B-458901C6134E}</Project>
+      <Name>test_hashtable</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_heap.vcxproj">
+      <Project>{12BA47C7-25E7-395F-965A-C583D3CA9F28}</Project>
+      <Name>test_heap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_adhesion.vcxproj">
+      <Project>{71460A6A-A32D-3D8D-84E0-C1DFB2AB9A4E}</Project>
+      <Name>test_igraph_adhesion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_adjacency_spectral_embedding.vcxproj">
+      <Project>{5C8E0F0B-A23A-3DBC-824B-019C706830CA}</Project>
+      <Name>test_igraph_adjacency_spectral_embedding</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_all_st_cuts.vcxproj">
+      <Project>{F7636283-FA01-3037-97DD-2C06D51B3A25}</Project>
+      <Name>test_igraph_all_st_cuts</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_are_connected.vcxproj">
+      <Project>{E2FBE7E0-F62A-334B-98AC-ED3222F8033E}</Project>
+      <Name>test_igraph_are_connected</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_arpack_rnsolve.vcxproj">
+      <Project>{89D0CB32-A22E-3BC7-9D7E-F20F25B2803B}</Project>
+      <Name>test_igraph_arpack_rnsolve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_arpack_unpack_complex.vcxproj">
+      <Project>{FE0E4DBC-F817-350D-B7DD-EA782A69409F}</Project>
+      <Name>test_igraph_arpack_unpack_complex</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_array.vcxproj">
+      <Project>{0A9DDEC6-7184-3C68-A3A4-8382F8A55D9A}</Project>
+      <Name>test_igraph_array</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_attribute_combination_remove.vcxproj">
+      <Project>{F1181E72-1BEB-3A90-B8CD-C56D212A36BD}</Project>
+      <Name>test_igraph_attribute_combination_remove</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_average_path_length.vcxproj">
+      <Project>{DE7E19B5-71DC-37F5-98B5-04FEDD125EE9}</Project>
+      <Name>test_igraph_average_path_length</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_average_path_length_dijkstra.vcxproj">
+      <Project>{2EC89219-B59E-3B40-B1F2-6324F20EA92B}</Project>
+      <Name>test_igraph_average_path_length_dijkstra</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_barabasi_aging_game.vcxproj">
+      <Project>{FC58CDF7-6423-31AD-955F-10E8B680998A}</Project>
+      <Name>test_igraph_barabasi_aging_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_betweenness.vcxproj">
+      <Project>{5D44615D-C054-3558-856C-AFF6C13E4FA1}</Project>
+      <Name>test_igraph_betweenness</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_bipartite_game.vcxproj">
+      <Project>{587F14D8-7D5C-3028-BDD8-ED5FF359DE4D}</Project>
+      <Name>test_igraph_bipartite_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_bridges.vcxproj">
+      <Project>{03C3810A-FA8F-30CD-B131-6C132636C8B3}</Project>
+      <Name>test_igraph_bridges</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_callaway_traits_game.vcxproj">
+      <Project>{39A2927A-3468-3448-BD08-E12AA2840D73}</Project>
+      <Name>test_igraph_callaway_traits_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_cited_type_game.vcxproj">
+      <Project>{C2916198-7B79-317F-8D7A-8A0B85951526}</Project>
+      <Name>test_igraph_cited_type_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_citing_cited_type_game.vcxproj">
+      <Project>{C31E1E7A-77EC-3EC8-AA90-FFD217FF6A32}</Project>
+      <Name>test_igraph_citing_cited_type_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_clique_size_hist.vcxproj">
+      <Project>{ED374728-680A-3A46-94DD-7BC2B5775FBE}</Project>
+      <Name>test_igraph_clique_size_hist</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_closeness.vcxproj">
+      <Project>{BE8EEF61-40F9-38DE-8955-82FC0231EE70}</Project>
+      <Name>test_igraph_closeness</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_cohesion.vcxproj">
+      <Project>{E781DCFC-53D2-3E48-8DD9-3F1C289373CB}</Project>
+      <Name>test_igraph_cohesion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_community_infomap.vcxproj">
+      <Project>{5C35DCCB-20DB-3969-8B2B-C36B6FE4550A}</Project>
+      <Name>test_igraph_community_infomap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_community_leading_eigenvector2.vcxproj">
+      <Project>{26D0105A-1598-36D4-8C46-9D3EDD280D38}</Project>
+      <Name>test_igraph_community_leading_eigenvector2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_compare_communities.vcxproj">
+      <Project>{DD3E1D97-C19D-3DB1-A05A-005D2315F54C}</Project>
+      <Name>test_igraph_compare_communities</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_complex.vcxproj">
+      <Project>{75BFEF7E-3A50-3364-9B65-2CEF57FE4020}</Project>
+      <Name>test_igraph_complex</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_convergence_degree.vcxproj">
+      <Project>{80F212F4-D806-3777-BAC6-797C03355301}</Project>
+      <Name>test_igraph_convergence_degree</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_correlated_game.vcxproj">
+      <Project>{94FF0BC0-1128-3AF1-B053-05E80BDE974B}</Project>
+      <Name>test_igraph_correlated_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_count_multiple.vcxproj">
+      <Project>{3B2771EB-2831-3CAF-8E7D-297E231C71B3}</Project>
+      <Name>test_igraph_count_multiple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_decompose_strong.vcxproj">
+      <Project>{CDADEA8D-FE43-3689-8ECF-4DB77E09338A}</Project>
+      <Name>test_igraph_decompose_strong</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_degree_sequence_game.vcxproj">
+      <Project>{17EE04D1-BAAB-3961-8191-0E2EC9A3A283}</Project>
+      <Name>test_igraph_degree_sequence_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_density.vcxproj">
+      <Project>{AF2DD6E0-FDA4-3ADE-B70F-3E00DF9229CF}</Project>
+      <Name>test_igraph_density</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_diversity.vcxproj">
+      <Project>{79A13359-B18B-38D8-AA99-22F67ED4F27B}</Project>
+      <Name>test_igraph_diversity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_eccentricity.vcxproj">
+      <Project>{D4C4E401-27EB-330D-8FEE-2F92C7CAECB7}</Project>
+      <Name>test_igraph_eccentricity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_edge_betweenness.vcxproj">
+      <Project>{64E80E61-20B5-31E0-910E-ECCAC035BDDE}</Project>
+      <Name>test_igraph_edge_betweenness</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_edge_disjoint_paths.vcxproj">
+      <Project>{F9DCF10B-9190-311E-8597-D18AEB91AEF7}</Project>
+      <Name>test_igraph_edge_disjoint_paths</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_eigen_matrix.vcxproj">
+      <Project>{C2DDB7A3-CBB7-322B-871C-FCFB5458D4AC}</Project>
+      <Name>test_igraph_eigen_matrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_eigen_matrix2.vcxproj">
+      <Project>{42414EFD-6EA3-3DC2-94CC-3967B2EB2263}</Project>
+      <Name>test_igraph_eigen_matrix2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_eigen_matrix3.vcxproj">
+      <Project>{8E44230D-15E7-326F-AC55-9D5900522D48}</Project>
+      <Name>test_igraph_eigen_matrix3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_eigen_matrix4.vcxproj">
+      <Project>{635C3731-C595-392D-8C1B-CFB76C1F66D8}</Project>
+      <Name>test_igraph_eigen_matrix4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_eigen_matrix_symmetric.vcxproj">
+      <Project>{0438B178-B16C-31FD-A57E-1DE72BA8F40D}</Project>
+      <Name>test_igraph_eigen_matrix_symmetric</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_eigen_matrix_symmetric_arpack.vcxproj">
+      <Project>{4094B304-8337-3778-A82A-3582AC49F850}</Project>
+      <Name>test_igraph_eigen_matrix_symmetric_arpack</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_es_path.vcxproj">
+      <Project>{DBE802EC-9F7F-316E-B640-8942212393E1}</Project>
+      <Name>test_igraph_es_path</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_establishment_game.vcxproj">
+      <Project>{6513DBA6-C3F1-3F80-B038-F65FCA5A1FAB}</Project>
+      <Name>test_igraph_establishment_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_eulerian_cycle.vcxproj">
+      <Project>{2C22BFC9-A342-377D-BF94-C3C1CBF22600}</Project>
+      <Name>test_igraph_eulerian_cycle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_eulerian_path.vcxproj">
+      <Project>{3341B1F2-E838-32E2-B99E-366C25C0D05B}</Project>
+      <Name>test_igraph_eulerian_path</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_extended_chordal_ring.vcxproj">
+      <Project>{72324844-9E89-3569-A6D3-77D066229E9B}</Project>
+      <Name>test_igraph_extended_chordal_ring</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_forest_fire_game.vcxproj">
+      <Project>{C9FB10AD-9192-308F-9246-453CF51527D5}</Project>
+      <Name>test_igraph_forest_fire_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_from_prufer.vcxproj">
+      <Project>{9296B37A-3CF6-38BE-AF95-AD79E91EF99F}</Project>
+      <Name>test_igraph_from_prufer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_full_citation.vcxproj">
+      <Project>{555FE22A-AD00-359F-8663-E5336AE1F958}</Project>
+      <Name>test_igraph_full_citation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_get_adjacency_sparse.vcxproj">
+      <Project>{FBCC5734-BAB6-3034-857D-8EB8589364F2}</Project>
+      <Name>test_igraph_get_adjacency_sparse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_get_all_simple_paths.vcxproj">
+      <Project>{7BBCAC19-98E5-3CEE-A468-BDF2E2F713CE}</Project>
+      <Name>test_igraph_get_all_simple_paths</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_get_isomorphisms_vf2.vcxproj">
+      <Project>{DB5940EA-8227-3BD9-9A5B-E9AC53D65247}</Project>
+      <Name>test_igraph_get_isomorphisms_vf2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_get_shortest_paths2.vcxproj">
+      <Project>{2AEA0081-1E51-387F-9964-A41E21B38DBC}</Project>
+      <Name>test_igraph_get_shortest_paths2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_get_shortest_paths_bellman_ford.vcxproj">
+      <Project>{389C7AA7-4C1D-3CA1-9406-B5622559E85D}</Project>
+      <Name>test_igraph_get_shortest_paths_bellman_ford</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_get_subisomorphisms_vf2.vcxproj">
+      <Project>{8EA44F03-83C5-390A-980E-56A6146B75CA}</Project>
+      <Name>test_igraph_get_subisomorphisms_vf2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_gomory_hu_tree.vcxproj">
+      <Project>{EEA4A82C-9BDF-3BDE-AF1B-DD4E445E15B0}</Project>
+      <Name>test_igraph_gomory_hu_tree</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_grg_game.vcxproj">
+      <Project>{8E5BADBF-CDB6-3EF5-A036-3A2BC4630466}</Project>
+      <Name>test_igraph_grg_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_growing_random_game.vcxproj">
+      <Project>{831F4102-47EC-3F0C-9A01-12D2EDA03970}</Project>
+      <Name>test_igraph_growing_random_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_hrg.vcxproj">
+      <Project>{878FEE76-E7E8-3C01-8C21-AB493DD851EB}</Project>
+      <Name>test_igraph_hrg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_hrg2.vcxproj">
+      <Project>{07E326DE-1BCE-3ED4-AF37-2D9151DAFBE6}</Project>
+      <Name>test_igraph_hrg2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_hrg3.vcxproj">
+      <Project>{5DE1F001-C5A4-3133-A891-041CD9743DC3}</Project>
+      <Name>test_igraph_hrg3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_i_layout_sphere.vcxproj">
+      <Project>{3A72B66E-DAF7-3811-853A-B1CF7180D9F1}</Project>
+      <Name>test_igraph_i_layout_sphere</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_induced_subgraph.vcxproj">
+      <Project>{6DA070D6-7CD4-3E2D-A4CD-3ECBBBD116D0}</Project>
+      <Name>test_igraph_induced_subgraph</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_induced_subgraph_map.vcxproj">
+      <Project>{89BB9E72-7375-3285-81D6-DD26B8B28146}</Project>
+      <Name>test_igraph_induced_subgraph_map</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_intersection2.vcxproj">
+      <Project>{B85FB4D1-FBE7-3E96-B38D-5B4EBC0EF6E2}</Project>
+      <Name>test_igraph_intersection2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_is_bigraphical.vcxproj">
+      <Project>{27031ED2-2211-3392-BFBF-5908B2A69F99}</Project>
+      <Name>test_igraph_is_bigraphical</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_is_bipartite.vcxproj">
+      <Project>{6585F734-1792-3142-9722-790EBA3693E0}</Project>
+      <Name>test_igraph_is_bipartite</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_is_chordal.vcxproj">
+      <Project>{D12D6C35-4C16-3ACE-836C-B31B5B8F6D57}</Project>
+      <Name>test_igraph_is_chordal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_is_eulerian.vcxproj">
+      <Project>{B3709E1D-223D-3986-AE02-65FA8A59EA81}</Project>
+      <Name>test_igraph_is_eulerian</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_is_graphical.vcxproj">
+      <Project>{9EF8735C-114F-31DC-AF79-FAA72BAE111E}</Project>
+      <Name>test_igraph_is_graphical</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_is_mutual.vcxproj">
+      <Project>{CC688AB3-4048-336B-AFFE-5C730902E6F0}</Project>
+      <Name>test_igraph_is_mutual</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_is_same_graph.vcxproj">
+      <Project>{E7D93639-9A35-33A8-B4AF-7F10DA963F72}</Project>
+      <Name>test_igraph_is_same_graph</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_is_tree.vcxproj">
+      <Project>{79AA8F7F-A51A-3317-9900-DCC306C565D4}</Project>
+      <Name>test_igraph_is_tree</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_isomorphic_bliss.vcxproj">
+      <Project>{90172D1C-A2D9-371D-94D2-16404429A4F4}</Project>
+      <Name>test_igraph_isomorphic_bliss</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_k_regular_game.vcxproj">
+      <Project>{D477F174-5318-343C-A53D-8039800EC847}</Project>
+      <Name>test_igraph_k_regular_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_kautz.vcxproj">
+      <Project>{8433B59B-EE97-35AE-98C0-E66837F97D99}</Project>
+      <Name>test_igraph_kautz</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_lapack_dgehrd.vcxproj">
+      <Project>{91C46F21-BAF7-3EDF-82A4-13BC91DB2CDB}</Project>
+      <Name>test_igraph_lapack_dgehrd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_lapack_dgetrf.vcxproj">
+      <Project>{4817A2A2-0859-3AF9-8440-42631FEBA6DA}</Project>
+      <Name>test_igraph_lapack_dgetrf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_lapack_dgetrs.vcxproj">
+      <Project>{353D88FC-0119-3C55-BB40-4890C67213F1}</Project>
+      <Name>test_igraph_lapack_dgetrs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_lastcit_game.vcxproj">
+      <Project>{BD09902A-7FE6-3914-8905-ADE6870FED41}</Project>
+      <Name>test_igraph_lastcit_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_lattice.vcxproj">
+      <Project>{4923648B-2B5E-30A3-BFAB-717C76F89364}</Project>
+      <Name>test_igraph_lattice</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_layout_bipartite.vcxproj">
+      <Project>{A3ECD658-917B-3D25-868F-A9EC6AB46603}</Project>
+      <Name>test_igraph_layout_bipartite</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_layout_davidson_harel.vcxproj">
+      <Project>{8438DD50-CBD9-3BAF-BF31-27F6BEB20B2E}</Project>
+      <Name>test_igraph_layout_davidson_harel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_layout_drl.vcxproj">
+      <Project>{7CF3BBF2-3C85-36D7-9CBD-E6D77C06D4DF}</Project>
+      <Name>test_igraph_layout_drl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_layout_fruchterman_reingold.vcxproj">
+      <Project>{073FCF93-8398-39BE-96E8-94BED867A712}</Project>
+      <Name>test_igraph_layout_fruchterman_reingold</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_layout_graphopt.vcxproj">
+      <Project>{93B6342B-2623-3E30-8E26-C333111FC009}</Project>
+      <Name>test_igraph_layout_graphopt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_layout_grid.vcxproj">
+      <Project>{911589CF-B3E1-37F7-85FD-108D5070A06C}</Project>
+      <Name>test_igraph_layout_grid</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_layout_kamada_kawai_3d_bug_1462.vcxproj">
+      <Project>{DA83DB4D-B223-3019-AE3E-7A6475FBD1E9}</Project>
+      <Name>test_igraph_layout_kamada_kawai_3d_bug_1462</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_layout_lgl.vcxproj">
+      <Project>{F741703C-28BD-3E23-AD89-33B4E83FD6F2}</Project>
+      <Name>test_igraph_layout_lgl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_layout_mds.vcxproj">
+      <Project>{1ADAC3CA-95C9-3FCC-B598-595820F51500}</Project>
+      <Name>test_igraph_layout_mds</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_layout_merge.vcxproj">
+      <Project>{013439DE-E1A5-338A-841A-A9F8445EA06E}</Project>
+      <Name>test_igraph_layout_merge</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_layout_merge2.vcxproj">
+      <Project>{2F5FA777-6D59-3B57-8595-12D20E3D812E}</Project>
+      <Name>test_igraph_layout_merge2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_layout_merge3.vcxproj">
+      <Project>{249F3896-00B5-3B64-AA64-2CEB4017957F}</Project>
+      <Name>test_igraph_layout_merge3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_layout_random_3d.vcxproj">
+      <Project>{8E689C54-B9E8-30DA-9215-BEF6CA95E7F3}</Project>
+      <Name>test_igraph_layout_random_3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_layout_reingold_tilford_bug_879.vcxproj">
+      <Project>{EB97F570-3505-3AB4-BE2D-C733BD1C66EA}</Project>
+      <Name>test_igraph_layout_reingold_tilford_bug_879</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_layout_reingold_tilford_circular.vcxproj">
+      <Project>{CD320D26-ABE2-3F99-890F-B145155A1B0E}</Project>
+      <Name>test_igraph_layout_reingold_tilford_circular</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_layout_reingold_tilford_extended.vcxproj">
+      <Project>{035B44CD-3A5D-3B2E-AD7D-A4964D7A5A10}</Project>
+      <Name>test_igraph_layout_reingold_tilford_extended</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_layout_star.vcxproj">
+      <Project>{40AB24F9-8C6C-34B9-BC52-2382B1B211A8}</Project>
+      <Name>test_igraph_layout_star</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_layout_sugiyama.vcxproj">
+      <Project>{C0069995-2068-37B0-8A9A-E10D3C5A06D3}</Project>
+      <Name>test_igraph_layout_sugiyama</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_le_community_to_membership.vcxproj">
+      <Project>{ACB222E3-C812-39C3-B59E-2ABE5DC9ACAA}</Project>
+      <Name>test_igraph_le_community_to_membership</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_linegraph.vcxproj">
+      <Project>{209E83BA-5F95-3D08-95C2-07EB861B6D7C}</Project>
+      <Name>test_igraph_linegraph</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_list_triangles.vcxproj">
+      <Project>{2303B7F0-76F7-352F-8AFE-9F6E8223CAE5}</Project>
+      <Name>test_igraph_list_triangles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_local_transitivity.vcxproj">
+      <Project>{52064A3A-D691-3638-BEC3-969B7CA10BAD}</Project>
+      <Name>test_igraph_local_transitivity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_maximal_cliques2.vcxproj">
+      <Project>{7B9241FB-DD84-3B52-8594-D2311A84D8D2}</Project>
+      <Name>test_igraph_maximal_cliques2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_maximal_cliques3.vcxproj">
+      <Project>{9B915944-10ED-37CB-9381-FA0F69CF024A}</Project>
+      <Name>test_igraph_maximal_cliques3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_maximal_cliques4.vcxproj">
+      <Project>{AF19FFDA-5F7A-38A0-B1C3-5AAAA7B60F44}</Project>
+      <Name>test_igraph_maximal_cliques4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_maximal_cliques_file.vcxproj">
+      <Project>{6CC0C7BC-1EA1-3B79-85D8-641C8D3578BB}</Project>
+      <Name>test_igraph_maximal_cliques_file</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_modularity.vcxproj">
+      <Project>{4510E2B4-3E4A-3F32-B4B8-5D5417589318}</Project>
+      <Name>test_igraph_modularity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_modularity_matrix.vcxproj">
+      <Project>{DBC8D082-56B6-311E-9B6E-DF6861FAB938}</Project>
+      <Name>test_igraph_modularity_matrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_moran_process.vcxproj">
+      <Project>{7346DE44-D68B-3004-B8F1-1EED4100A6ED}</Project>
+      <Name>test_igraph_moran_process</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_motifs_randesu_estimate.vcxproj">
+      <Project>{8B5F724D-FBFD-31C8-971D-8028DF34608E}</Project>
+      <Name>test_igraph_motifs_randesu_estimate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_motifs_randesu_no.vcxproj">
+      <Project>{4DADCC3E-EA20-37FF-8C33-B646639163AC}</Project>
+      <Name>test_igraph_motifs_randesu_no</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_neighborhood.vcxproj">
+      <Project>{EB1CA63B-AFD9-3137-B164-3ECAF9DB6279}</Project>
+      <Name>test_igraph_neighborhood</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_neighborhood_graphs.vcxproj">
+      <Project>{5668D599-B19F-384C-B469-9D1888BA72F9}</Project>
+      <Name>test_igraph_neighborhood_graphs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_neighborhood_size.vcxproj">
+      <Project>{83655FAA-9238-31FB-8107-64B9EBC5D063}</Project>
+      <Name>test_igraph_neighborhood_size</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_pagerank.vcxproj">
+      <Project>{E5C445CD-41B5-38C5-B412-92787066B591}</Project>
+      <Name>test_igraph_pagerank</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_preference_game.vcxproj">
+      <Project>{C92355CB-1C12-3863-9428-85B6531946C4}</Project>
+      <Name>test_igraph_preference_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_progress_handler_stderr.vcxproj">
+      <Project>{5EA775E8-08F4-3235-A64D-AFE09375662F}</Project>
+      <Name>test_igraph_progress_handler_stderr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_psumtree.vcxproj">
+      <Project>{C7BF6F60-19F1-3640-9B36-490181C5F8C8}</Project>
+      <Name>test_igraph_psumtree</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_qsort.vcxproj">
+      <Project>{48B7B0A9-2B3B-3E9F-BFC8-4F111FC8944E}</Project>
+      <Name>test_igraph_qsort</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_qsort_r.vcxproj">
+      <Project>{BCC6C10E-6A88-398D-9734-4F66B48ECE98}</Project>
+      <Name>test_igraph_qsort_r</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_random_walk.vcxproj">
+      <Project>{B12F632F-F55A-3B8F-8EF7-A5C05574C5CD}</Project>
+      <Name>test_igraph_random_walk</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_read_graph_gml_invalid_inputs.vcxproj">
+      <Project>{7B6AD7C2-74FA-327A-84C3-13E0F436AB7C}</Project>
+      <Name>test_igraph_read_graph_gml_invalid_inputs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_realize_degree_sequence.vcxproj">
+      <Project>{04D081AB-3AB7-354E-9EC0-D8F7221C9FA0}</Project>
+      <Name>test_igraph_realize_degree_sequence</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_recent_degree_aging_game.vcxproj">
+      <Project>{44212D6A-4661-33F6-97E8-E2252EC4CBFB}</Project>
+      <Name>test_igraph_recent_degree_aging_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_recent_degree_game.vcxproj">
+      <Project>{4DC1575C-DA56-3271-99C9-7B013E73E0B4}</Project>
+      <Name>test_igraph_recent_degree_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_residual_graph.vcxproj">
+      <Project>{96C57070-2125-3B0A-99F6-E62A0F36B502}</Project>
+      <Name>test_igraph_residual_graph</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_rewire.vcxproj">
+      <Project>{75A6D7E0-1A39-3776-9133-1139E2FBB2BB}</Project>
+      <Name>test_igraph_rewire</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_rewire_directed_edges.vcxproj">
+      <Project>{48026B9E-2153-3A43-8501-E141C7FAE025}</Project>
+      <Name>test_igraph_rewire_directed_edges</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_rng_get_exp.vcxproj">
+      <Project>{97EA819F-BABD-3B17-8ACC-783D84793089}</Project>
+      <Name>test_igraph_rng_get_exp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_rng_get_integer.vcxproj">
+      <Project>{7BEA3B13-06E0-3767-B5D0-9A227D06E63C}</Project>
+      <Name>test_igraph_rng_get_integer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_running_mean.vcxproj">
+      <Project>{48BEDFA2-93C9-3C9D-87A0-5B8C790FD019}</Project>
+      <Name>test_igraph_running_mean</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_set_progress_handler.vcxproj">
+      <Project>{7DB0C97A-A5F8-328B-8948-155CD1314F8A}</Project>
+      <Name>test_igraph_set_progress_handler</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_shortest_paths_johnson.vcxproj">
+      <Project>{07AFE344-F697-385A-B290-2A5DF2FEC408}</Project>
+      <Name>test_igraph_shortest_paths_johnson</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_simple_interconnected_islands_game.vcxproj">
+      <Project>{2B7409FD-190E-30E2-9A59-82665027E7F0}</Project>
+      <Name>test_igraph_simple_interconnected_islands_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_sir.vcxproj">
+      <Project>{7B9E6907-794F-33E6-8999-E6D8D5C27005}</Project>
+      <Name>test_igraph_sir</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_solve_lsap.vcxproj">
+      <Project>{4072902F-77DF-3516-896F-ED032127DBDA}</Project>
+      <Name>test_igraph_solve_lsap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_sparsemat2.vcxproj">
+      <Project>{8E4FC2A8-4321-3FD8-BFFC-123CC0DE3635}</Project>
+      <Name>test_igraph_sparsemat2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_sparsemat5.vcxproj">
+      <Project>{3AFA9F7E-DF3A-31D9-A88C-39ADF9D2697D}</Project>
+      <Name>test_igraph_sparsemat5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_sparsemat9.vcxproj">
+      <Project>{46694E0A-F1CD-3D71-80DD-3C40F50DFBC9}</Project>
+      <Name>test_igraph_sparsemat9</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_sparsemat_droptol.vcxproj">
+      <Project>{4EFE42E2-9779-3B0D-B092-4776C913A968}</Project>
+      <Name>test_igraph_sparsemat_droptol</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_sparsemat_fkeep.vcxproj">
+      <Project>{993E8DA1-AF68-341F-B5AF-2D9FF9437B1F}</Project>
+      <Name>test_igraph_sparsemat_fkeep</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_sparsemat_getelements_sorted.vcxproj">
+      <Project>{C4AB5758-3F06-3167-A617-8394F1996C82}</Project>
+      <Name>test_igraph_sparsemat_getelements_sorted</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_sparsemat_is_symmetric.vcxproj">
+      <Project>{6CDCDEE7-FE83-31BE-B34C-2E6745640038}</Project>
+      <Name>test_igraph_sparsemat_is_symmetric</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_sparsemat_iterator_idx.vcxproj">
+      <Project>{EC569F3A-F29F-3067-9F65-04813B5C4158}</Project>
+      <Name>test_igraph_sparsemat_iterator_idx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_sparsemat_minmax.vcxproj">
+      <Project>{DCA9F93B-94DB-39DC-85E1-CE790B204CBB}</Project>
+      <Name>test_igraph_sparsemat_minmax</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_sparsemat_nonzero_storage.vcxproj">
+      <Project>{8FFC86BC-6ED1-3140-9CF3-577149626085}</Project>
+      <Name>test_igraph_sparsemat_nonzero_storage</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_sparsemat_view.vcxproj">
+      <Project>{DF46632F-551C-3A7D-B519-CF07F859CF69}</Project>
+      <Name>test_igraph_sparsemat_view</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_sparsemat_which_minmax.vcxproj">
+      <Project>{925ED939-1FFE-3975-AB22-F4EC5F3F1FC5}</Project>
+      <Name>test_igraph_sparsemat_which_minmax</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_split_join_distance.vcxproj">
+      <Project>{5ADACB3F-44D1-377C-8B0C-83E87BDC20E9}</Project>
+      <Name>test_igraph_split_join_distance</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_spmatrix_add_col_values.vcxproj">
+      <Project>{ECA54FC0-371F-3116-A416-C981BF047A90}</Project>
+      <Name>test_igraph_spmatrix_add_col_values</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_st_edge_connectivity.vcxproj">
+      <Project>{019BC6EF-A601-3A64-809C-916229146E22}</Project>
+      <Name>test_igraph_st_edge_connectivity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_st_mincut.vcxproj">
+      <Project>{6E9BE224-1937-3F28-9B58-924E14AA8605}</Project>
+      <Name>test_igraph_st_mincut</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_st_mincut_value.vcxproj">
+      <Project>{DBECF223-7523-3F6A-82C8-49A385B6182F}</Project>
+      <Name>test_igraph_st_mincut_value</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_static_power_law_game.vcxproj">
+      <Project>{EE583F93-5D26-3821-BA59-17C5B665F6BC}</Project>
+      <Name>test_igraph_static_power_law_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_subisomorphic.vcxproj">
+      <Project>{0E5C6F5D-00EA-3372-BBA9-8DDC2A8FFFBB}</Project>
+      <Name>test_igraph_subisomorphic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_to_directed.vcxproj">
+      <Project>{2048CBEC-CB59-3A76-B41D-EB8A066D4F8C}</Project>
+      <Name>test_igraph_to_directed</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_to_prufer.vcxproj">
+      <Project>{DCE8F1AB-1243-3EA7-977D-DBD232B4370D}</Project>
+      <Name>test_igraph_to_prufer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_transitive_closure_dag.vcxproj">
+      <Project>{BED5B088-4451-305E-89BC-3F8C96A0C7E4}</Project>
+      <Name>test_igraph_transitive_closure_dag</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_transitivity_avglocal_undirected.vcxproj">
+      <Project>{1212C625-974C-3F80-BCD3-3DF7C4BCF772}</Project>
+      <Name>test_igraph_transitivity_avglocal_undirected</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_transitivity_barrat.vcxproj">
+      <Project>{90A3493D-5003-37B8-93C5-F42085534595}</Project>
+      <Name>test_igraph_transitivity_barrat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_vector_floor.vcxproj">
+      <Project>{312E72C1-A84B-3246-88E8-49A7BEC30BED}</Project>
+      <Name>test_igraph_vector_floor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_vector_lex_cmp.vcxproj">
+      <Project>{940CFC67-8517-3494-AE43-BC6A33518533}</Project>
+      <Name>test_igraph_vector_lex_cmp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_vertex_disjoint_paths.vcxproj">
+      <Project>{776C63CA-AE35-3AA2-B915-355E783F8062}</Project>
+      <Name>test_igraph_vertex_disjoint_paths</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_weighted_cliques.vcxproj">
+      <Project>{70D9CCB3-46CB-369B-B53B-E0BEA95C2CE3}</Project>
+      <Name>test_igraph_weighted_cliques</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_write_graph_dimacs.vcxproj">
+      <Project>{FD84A6C3-C798-39E2-9637-3818BD9250A4}</Project>
+      <Name>test_igraph_write_graph_dimacs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_igraph_write_graph_leda.vcxproj">
+      <Project>{ADBC8331-1C8F-3C57-8FD4-345CC9386521}</Project>
+      <Name>test_igraph_write_graph_leda</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_inclist.vcxproj">
+      <Project>{446EC491-1CCB-3F54-98BB-49036A1E190D}</Project>
+      <Name>test_inclist</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_isoclasses.vcxproj">
+      <Project>{FCF794BC-03AA-3026-AB70-6B5D8BA392A0}</Project>
+      <Name>test_isoclasses</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_isomorphism_test.vcxproj">
+      <Project>{F11C2EDD-F511-3BB4-9C30-F28E52BEC5C0}</Project>
+      <Name>test_isomorphism_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_levc-stress.vcxproj">
+      <Project>{83642146-5EA5-3434-88ED-E2D5695E5567}</Project>
+      <Name>test_levc-stress</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_lineendings.vcxproj">
+      <Project>{40A69560-C406-312E-A70F-C9C3A54C8C0B}</Project>
+      <Name>test_lineendings</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_marked_queue.vcxproj">
+      <Project>{96241F7E-54A8-3747-887F-8D84369D1A24}</Project>
+      <Name>test_marked_queue</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_matrix.vcxproj">
+      <Project>{3DBE0700-AEEA-3E61-80E3-36C492931FD2}</Project>
+      <Name>test_matrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_matrix2.vcxproj">
+      <Project>{F2AEE0E0-4B22-35B1-A45E-A189D58D32E4}</Project>
+      <Name>test_matrix2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_matrix3.vcxproj">
+      <Project>{F86DD83B-E7E7-3070-93EE-BEACBA7B6809}</Project>
+      <Name>test_matrix3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_maximal_cliques_callback.vcxproj">
+      <Project>{F5B30841-82C9-3BCD-A4F9-58505B5EB6BA}</Project>
+      <Name>test_maximal_cliques_callback</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_maximal_cliques_hist.vcxproj">
+      <Project>{275A78C4-6CDC-3CE4-BB38-3B03F30D09DE}</Project>
+      <Name>test_maximal_cliques_hist</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_mt.vcxproj">
+      <Project>{03BEE0D3-983F-3012-B2CC-33B47F15781C}</Project>
+      <Name>test_mt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_pajek.vcxproj">
+      <Project>{367A26A3-1789-3BE0-BF19-42CE817E3EC1}</Project>
+      <Name>test_pajek</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_pajek2.vcxproj">
+      <Project>{B05B0E56-9C9A-3E06-AD8C-9C619DB0FECA}</Project>
+      <Name>test_pajek2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_pajek_bipartite.vcxproj">
+      <Project>{F6E3E7BF-2929-37E2-BA71-7CDC0D5A33AD}</Project>
+      <Name>test_pajek_bipartite</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_pajek_bipartite2.vcxproj">
+      <Project>{2BFABF7D-87E8-3FC8-BAAA-ABCC260CFF50}</Project>
+      <Name>test_pajek_bipartite2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_pajek_signed.vcxproj">
+      <Project>{5147E341-B3C2-327B-9D8E-CFB614B4A573}</Project>
+      <Name>test_pajek_signed</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_random_spanning_tree.vcxproj">
+      <Project>{238610C5-06E3-3060-8136-F72F065E9822}</Project>
+      <Name>test_random_spanning_tree</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_ring.vcxproj">
+      <Project>{AD553627-8C07-367E-9F3E-7F94E044F9C7}</Project>
+      <Name>test_ring</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_rng_init_destroy_max_min_name_set_default.vcxproj">
+      <Project>{FD66F35F-15A5-32CF-B5AA-DEB68C339E34}</Project>
+      <Name>test_rng_init_destroy_max_min_name_set_default</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_rng_reproducibility.vcxproj">
+      <Project>{FD642FD4-69FB-3886-8FE1-FD854C220B5F}</Project>
+      <Name>test_rng_reproducibility</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_scg2.vcxproj">
+      <Project>{AFC7DF12-A0E3-32FE-853C-E63B4F6AD46A}</Project>
+      <Name>test_scg2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_scg3.vcxproj">
+      <Project>{A5E08B17-6270-3788-BE33-C18702E8704D}</Project>
+      <Name>test_scg3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_set.vcxproj">
+      <Project>{B8800572-DD77-33B2-A884-D03CAB8C54AC}</Project>
+      <Name>test_set</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_simplify_and_colorize.vcxproj">
+      <Project>{2141BC92-F233-333D-BB44-F40660625776}</Project>
+      <Name>test_simplify_and_colorize</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_single_target_shortest_path.vcxproj">
+      <Project>{BB269B3E-69AD-3E85-8967-FFE772D44714}</Project>
+      <Name>test_single_target_shortest_path</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_spinglass.vcxproj">
+      <Project>{535E4FE4-F0D6-3495-B151-8729EEADD7E9}</Project>
+      <Name>test_spinglass</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_spmatrix.vcxproj">
+      <Project>{FEB6FB66-D576-3A23-ACD8-9518758D209A}</Project>
+      <Name>test_spmatrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_spmatrix_clear.vcxproj">
+      <Project>{E64572D7-F4E3-34D4-A806-1B65BEAA59B5}</Project>
+      <Name>test_spmatrix_clear</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_stack.vcxproj">
+      <Project>{0E9F07BB-4057-3164-90BD-625874DC098D}</Project>
+      <Name>test_stack</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_strvector_set2_remove_print.vcxproj">
+      <Project>{EA157F4B-B4E1-363F-AA6B-F5DB982D9C0C}</Project>
+      <Name>test_strvector_set2_remove_print</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_topological_sorting.vcxproj">
+      <Project>{055C0D05-EAE6-3310-9BA2-0748E8CA740E}</Project>
+      <Name>test_topological_sorting</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_tree.vcxproj">
+      <Project>{EB01E042-A6B2-3CF9-AA50-CF4E019899E4}</Project>
+      <Name>test_tree</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_tree_game.vcxproj">
+      <Project>{5B2DD44C-F7C3-313F-8772-91A9F9A175FB}</Project>
+      <Name>test_tree_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_triad_census.vcxproj">
+      <Project>{E440848C-AE3D-3350-90D2-EDD9A65DC421}</Project>
+      <Name>test_triad_census</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_trie.vcxproj">
+      <Project>{D2A99831-E2A2-30FA-918C-0A7FA1A89C18}</Project>
+      <Name>test_trie</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_vector.vcxproj">
+      <Project>{69C32A53-8E71-3554-92DD-184804ED7B8E}</Project>
+      <Name>test_vector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_vector2.vcxproj">
+      <Project>{971D4FF2-1050-3E15-8984-427522D0F6E0}</Project>
+      <Name>test_vector2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_vector3.vcxproj">
+      <Project>{521A697A-B17D-3134-AA6A-7FA9FA7469A7}</Project>
+      <Name>test_vector3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_vector_ptr.vcxproj">
+      <Project>{31650F0D-332F-3FD2-9643-3AD5CA514035}</Project>
+      <Name>test_vector_ptr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_vertex_selectors.vcxproj">
+      <Project>{60F737FE-E1CF-347F-AD7F-FC5284B1ED01}</Project>
+      <Name>test_vertex_selectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_watts_strogatz_game.vcxproj">
+      <Project>{3577509A-560A-3FED-BDAB-63B9B5077DF4}</Project>
+      <Name>test_watts_strogatz_game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\tests\test_zero_allocs.vcxproj">
+      <Project>{F3638D6A-40CB-32F8-8ABE-6629BE7F97F4}</Project>
+      <Name>test_zero_allocs</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

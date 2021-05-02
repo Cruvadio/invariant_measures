@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6233E01A-AEC6-3228-B615-75184070560C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>blas_vendored</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">blas_vendored.dir\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">blas_vendored.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">blas_vendored</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">blas_vendored.dir\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">blas_vendored.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">blas_vendored</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">blas_vendored.dir\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">blas_vendored.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">blas_vendored</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">blas_vendored.dir\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">blas_vendored.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">blas_vendored</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /FS</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /FS</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /FS</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /FS</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\include;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\src;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c;C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\msvc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/vendor/lapack/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Death/source/repos/Symbol_2/igraph-0.9.2 -BC:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/build --check-stamp-file C:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/build/vendor/lapack/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/vendor/lapack/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Death/source/repos/Symbol_2/igraph-0.9.2 -BC:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/build --check-stamp-file C:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/build/vendor/lapack/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/vendor/lapack/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Death/source/repos/Symbol_2/igraph-0.9.2 -BC:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/build --check-stamp-file C:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/build/vendor/lapack/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/vendor/lapack/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Death/source/repos/Symbol_2/igraph-0.9.2 -BC:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/build --check-stamp-file C:/Users/Death/source/repos/Symbol_2/igraph-0.9.2/build/vendor/lapack/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\lapack\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\dscal.c" />
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\dswap.c" />
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\lsame.c" />
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\dnrm2.c" />
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\daxpy.c" />
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\dgemv.c" />
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\dger.c" />
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\dgemm.c" />
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\dcopy.c" />
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\dtrmm.c" />
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\dtrmv.c" />
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\drot.c" />
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\ddot.c" />
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\dasum.c" />
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\dsymv.c" />
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\dsyr2k.c" />
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\dsyr2.c" />
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\dtrsm.c" />
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\dsyrk.c" />
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\dtrsv.c" />
+    <ClCompile Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\vendor\lapack\idamax.c" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\abort_.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\dolio.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_sin.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\dummy.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\dtime_.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\iio.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_sinh.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\backspac.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\due.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\ilnw.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_sqrt.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\c_abs.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\ef1asc_.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\inquire.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_tan.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\c_cos.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\ef1cmc_.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\l_ge.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_tanh.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\c_div.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\endfile.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\l_gt.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\rdfmt.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\c_exp.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\erf_.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\l_le.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\rewind.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\c_log.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\erfc_.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\l_lt.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\rsfe.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\c_sin.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\err.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\lbitbits.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\rsli.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\c_sqrt.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\etime_.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\lbitshft.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\rsne.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\cabs.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\exit_.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\lread.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\s_cat.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\close.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\f77_aloc.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\lwrite.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\s_cmp.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\ctype.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\f77vers.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\s_copy.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_abs.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\fmt.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\open.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\s_paus.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_acos.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\fmtlib.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\pow_ci.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\s_rnge.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_asin.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\ftell_.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\pow_dd.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\s_stop.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_atan.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\pow_di.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\sfe.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_atn2.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\getenv_.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\pow_hh.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\sig_die.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_cnjg.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\h_abs.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\pow_ii.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\signal_.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_cos.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\h_dim.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\pow_ri.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\signbit.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_cosh.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\h_dnnt.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\pow_zi.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\sue.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_dim.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\h_indx.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\pow_zz.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\system_.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_exp.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\h_len.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_abs.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\typesize.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_imag.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\h_mod.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_acos.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\uio.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_int.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\h_nint.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_asin.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\uninit.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_lg10.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\h_sign.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_atan.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\util.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_log.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\hl_ge.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_atn2.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\wref.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_mod.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\hl_gt.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_cnjg.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\wrtfmt.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_nint.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\hl_le.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_cos.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\wsfe.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_prod.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\hl_lt.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_cosh.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\wsle.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_sign.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\i77vers.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_dim.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\wsne.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_sin.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\i_abs.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_exp.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\xwsne.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_sinh.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\i_dim.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_imag.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\z_abs.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_sqrt.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\i_dnnt.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_int.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\z_cos.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_tan.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\i_indx.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_lg10.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\z_div.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\d_tanh.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\i_len.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_log.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\z_exp.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\derf_.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\i_mod.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_mod.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\z_log.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\derfc_.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\i_nint.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_nint.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\z_sin.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\dfe.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\i_sign.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\r_sign.obj" />
+    <Object Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.dir\$(Configuration)\z_sqrt.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\ZERO_CHECK.vcxproj">
+      <Project>{EC6356D6-A43E-3BF1-B490-A63C4E17EB57}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Death\source\repos\Symbol_2\igraph-0.9.2\build\vendor\f2c\f2c_vendored.vcxproj">
+      <Project>{5EB349D4-65DE-3CA3-9F5B-D7F364D55A07}</Project>
+      <Name>f2c_vendored</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
