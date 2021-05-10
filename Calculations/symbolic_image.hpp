@@ -45,7 +45,7 @@ class SymbolicImage {
 
 	
 
-	Graph *g;
+	Graph g;
 
 
 
@@ -56,7 +56,7 @@ class SymbolicImage {
 
 	int return_cell(double x, double y);
 
-	vector<vector<int>> find_strong_components();
+	vector<vector<int>> find_strong_components(Graph &);
 
 	vector<vector<int>> localize_chain_set();
 
@@ -89,7 +89,7 @@ public:
 		delta(delta),
 		iterations_for_localization(it_loc),
 		iterations_for_balance(it_bal),
-		a(a), b(b)
+		a(a), b(b), g()
 	{
 		rows = (int)((y_max - y_min) / delta);
 		cols = (int)((x_max - x_min) / delta);
@@ -98,7 +98,6 @@ public:
 
 		dots_square = ceil(sqrt(dots));
 
-		g = new Graph();
 	}
 
 
@@ -116,9 +115,5 @@ public:
 
 	vector<double> find_invariant_measures();
 
-	~SymbolicImage()
-	{
-		delete g;
-	}
 };
 

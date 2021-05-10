@@ -1,14 +1,23 @@
 #include <iostream>
 #include <fstream>
 #include "symbolic_image.hpp"
+#include <chrono>
+
 
 int main()
 {
-    cout << "Calculating..." << endl;
-    SymbolicImage s(-2, 2, -2, 2, 100, 0.005, 0, 100, 0.5, -0.5);
 
+    SymbolicImage s(-2, 2, -2, 2, 100, 0.00390625, 0, 100, -0.8, 0.2);
+
+    auto t_start = std::chrono::high_resolution_clock::now();
     vector<double> measures = s.find_invariant_measures();
-    cout << "Calculated!" << endl;
+    auto t_end = std::chrono::high_resolution_clock::now();
+
+
+    double elapsed_time_ms = std::chrono::duration<double, std::milli>(t_end - t_start).count();
+
+    cout << elapsed_time_ms << endl;
+
     ofstream myfile;
 
     cout << "Opening file..." << endl;

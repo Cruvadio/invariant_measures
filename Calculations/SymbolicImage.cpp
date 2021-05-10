@@ -63,26 +63,26 @@ vector<vector<int>> SymbolicImage::localize_chain_set()
 
 				if (!writes[i])
 				{
-					vertex_t v = add_vertex(i, *g);
-					(*g)[i].index = i;
+					vertex_t v = add_vertex(i, g);
+					g[i].index = i;
 					writes[i] = true;
 				}
 				if (!writes[cell])
 				{
-					add_vertex(cell, *g);
-					(*g)[cell].index = cell;
+					add_vertex(cell, g);
+					g[cell].index = cell;
 					writes[cell] = true;
 				}
-				add_edge_by_label(i, cell, *g);
+				add_edge_by_label(i, cell, g);
 			}
 		}
 	}
-	vector<vector<int>>components =  find_strong_components();
+	vector<vector<int>>components =  find_strong_components(g);
 
 		for (int i = 0; i < iterations_for_localization; i++)
 		{
 			int old_cols = cols;
-			Graph* new_g = new Graph();
+			Graph new_g;
 			cols *= 2;
 			rows *= 2;
 			delta *= 0.5;
@@ -123,21 +123,21 @@ vector<vector<int>> SymbolicImage::localize_chain_set()
 
 									if (!writes[cells[m]])
 									{
-										add_vertex(cells[m], *new_g);
-										(*new_g)[cells[m]].index = cells[m];
+										add_vertex(cells[m], new_g);
+										new_g[cells[m]].index = cells[m];
 										writes[cells[m]] = true;
 									}
 
 									if (!writes[cell])
 									{
 										cout << cell << endl;
-										add_vertex(cell, *new_g);
-										(*new_g)[cell].index = cell;
+										add_vertex(cell, new_g);
+										new_g[cell].index = cell;
 										writes[cell] = true;
 									}
 
 									
-									add_edge_by_label(cells[m], cell, *new_g);
+									add_edge_by_label(cells[m], cell, new_g);
 
 								}
 							}
@@ -146,10 +146,8 @@ vector<vector<int>> SymbolicImage::localize_chain_set()
 				}
 			}
 			std::cout << "I'M HERE!!! " << i << endl;
-			delete g;
-			g = new_g;		
-			components = find_strong_components();
-
+			components = find_strong_components(new_g);
+			g = new_g;
 			std::cout << "I'M HERE!!! " << i << endl;
 
 		}
@@ -157,24 +155,22 @@ vector<vector<int>> SymbolicImage::localize_chain_set()
 	return components;
 }
 
-vector<vector<int>> SymbolicImage::find_strong_components()
+vector<vector<int>> SymbolicImage::find_strong_components(Graph &g)
 {
 
 	map <vertex_t, int> comp;
 
-	cout << "Calculating strong components..." << endl;
-	int num = strong_components(g->graph(), boost::get(&Node::component, g->graph()), 
-		vertex_index_map(boost::get(&Node::index, g->graph())));
+	int num = strong_components(g.graph(), boost::get(&Node::component, g.graph()), 
+		vertex_index_map(boost::get(&Node::index, g.graph())));
 
 	vector<vector<int>> components(num);
-	cout << "Calculated" << endl;
 
 	graph_traits <Graph>::vertex_iterator vi, vi_end;
 
-	for (tie(vi, vi_end) = vertices(*g); vi != vi_end; ++vi)
+	for (tie(vi, vi_end) = vertices(g); vi != vi_end; ++vi)
 	{
-		components[g->graph()[*vi].component].push_back(g->graph()[*vi].index);
-
+		components[g.graph()[*vi].component].push_back(g.graph()[*vi].index);
+		g[0].component = 1;
 	}
 
 	return components;
