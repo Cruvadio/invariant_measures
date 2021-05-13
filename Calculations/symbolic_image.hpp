@@ -1,19 +1,23 @@
 #pragma once
 #include <boost/graph/adjacency_list.hpp>
 #include <boost/graph/labeled_graph.hpp>
+#include <boost/graph/subgraph.hpp>
 #include <vector>
 #include <list>
 
 using namespace boost;
 using namespace std;
 
-struct Node
+struct vertex_component_t
 {
-	int index;
-	int component;
+	typedef vertex_property_tag kind;
 };
 
-typedef labeled_graph<adjacency_list<setS, listS, directedS, Node>, int> Graph;
+
+typedef property<vertex_index_t, size_t, property <vertex_component_t, int, property<vertex_index1_t, int>>> VertexProperty;
+typedef adjacency_list<setS, vecS, directedS, VertexProperty, property<edge_index_t, size_t>> adj_list;
+//typedef labeled_graph<adj_list, int> preGraph;
+typedef subgraph<adj_list> Graph;
 typedef graph_traits<Graph>::vertex_descriptor vertex_t;
 
 
@@ -56,9 +60,9 @@ class SymbolicImage {
 
 	int return_cell(double x, double y);
 
-	vector<vector<int>> find_strong_components(Graph &);
+	vector<vector<vertex_t>> find_strong_components(Graph &);
 
-	vector<vector<int>> localize_chain_set();
+	vector<vector<vertex_t>> localize_chain_set();
 
 	vector<int> new_coordinates(int cell, int cols);
 
@@ -67,6 +71,9 @@ class SymbolicImage {
 
 	int return_old_cell(int cell, int old_cols);
 
+
+	Graph return_component_subgraph(vector<vector<vertex_t>>& components);
+	vector<vertex_t> max_component(vector<vector<vertex_t>>& components);
 public:
 
 	SymbolicImage(
@@ -89,13 +96,13 @@ public:
 		delta(delta),
 		iterations_for_localization(it_loc),
 		iterations_for_balance(it_bal),
-		a(a), b(b), g()
+		a(a), b(b) //g()
 	{
 		rows = (int)((y_max - y_min) / delta);
 		cols = (int)((x_max - x_min) / delta);
 
 		number_of_cells = rows * cols;
-
+		g = Graph(number_of_cells);
 		dots_square = ceil(sqrt(dots));
 
 	}
